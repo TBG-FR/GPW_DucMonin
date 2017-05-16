@@ -37,15 +37,21 @@ header {
 
 #logo  {
     display: inline-block;
+    max-height: 200px;
+    min-height: 50px;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
 }
 
 #header_contact {
     display: inline-block;
+    margin-left: 2.5%;
     font-size:calc(1em + 1vw); /* Taille du Texte : 1 + 0.5 de l'écran */
     
 }
 
 #header_buttons {
+    margin-left: 2.5%;
     display: inline-block;
     
 }
@@ -53,6 +59,7 @@ header {
 /* ----- Menu de Navigation (navbar) ----- */
 
 #navbar {
+    margin-top: 2.5%;
     min-width: 100%;
     
     display: inline-block;
