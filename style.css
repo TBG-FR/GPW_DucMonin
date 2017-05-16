@@ -1,9 +1,22 @@
+/* ----- ----- Général (Page) ----- ----- */
+
 html {
     background-color: brown;
 }
 
 body {
     background-color: darkorange;
+}
+
+/* ----- Polices Ajoutées ----- */
+@font-face {
+    font-family: 'Champagne';
+    src: url('Champagne.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ChampagneBold';
+    src: url('ChampagneBold.ttf') format('truetype');
 }
 
 /* ----- ----- Header (Haut de Page) ----- ----- */
@@ -24,7 +37,7 @@ header {
     background-color: chartreuse;
 }
 
-/* Menu de Navigation (navbar) */
+/* ----- Menu de Navigation (navbar) ----- */
 
 #navbar {
     display: inline-block;
@@ -66,7 +79,7 @@ header {
     float: left;
 }
 
-/* Menu sur le côté (Sidebar) */
+/* ----- Menu de droite (Sidebar) ----- */
 
 #sidebar {
     max-width: 20%;
