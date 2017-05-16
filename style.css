@@ -30,8 +30,23 @@ header {
 
 #header_head {
     min-width: 100%;
+    display: inline-block;
     
     background-color: chartreuse;
+}
+
+#logo  {
+    display: inline-block;
+}
+
+#header_contact {
+    display: inline-block;
+    
+}
+
+#header_buttons {
+    display: inline-block;
+    
 }
 
 /* ----- Menu de Navigation (navbar) ----- */
