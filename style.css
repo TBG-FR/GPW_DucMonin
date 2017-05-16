@@ -61,6 +61,7 @@ header {
 
 #navbar ul {
     list-style-type: none;
+    margin:auto;
 }
 
 #navbar li {
@@ -75,10 +76,7 @@ header {
     color: #FFFFFF;
     background-color: rgba(0, 0, 0, 1);
     text-align: center;
-    /*padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;*/
-    margin: auto
+    margin: auto;
     
     font-family: 'Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
     font-size:calc(1em + 0.5vw); /* Taille du Texte : */
