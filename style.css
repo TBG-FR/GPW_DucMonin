@@ -61,13 +61,33 @@ header {
 
 #navbar ul {
     list-style-type: none;
-    overflow: hidden;
 }
 
 #navbar li {
-    float:left;
-    border: outset 2px #000000;
+    width: 12%;
+    display: inline-block;
 }
+
+#navbar a:link, #navbar a:visited {
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 1);
+    text-align: center;
+    /*padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;*/
+    margin: auto
+    
+    font-family: 'Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
+    font-size:calc(1em + 0.5vw); /* Taille du Texte : */
+    text-decoration: none; /* Retire le format "lien" */
+}
+
+#navbar a:hover, #navbar a:active {
+    /*background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.9;*/
 
 /* ----- -----  Main (Corps de Page) ----- ----- */
 
