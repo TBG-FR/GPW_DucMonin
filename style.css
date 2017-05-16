@@ -41,6 +41,7 @@ header {
 
 #header_contact {
     display: inline-block;
+    font-size:calc(1em + 1vw); /* Taille du Texte : 1 + 0.5 de l'écran */
     
 }
 
@@ -52,7 +53,6 @@ header {
 /* ----- Menu de Navigation (navbar) ----- */
 
 #navbar {
-    margin-top: 2.5%;
     min-width: 100%;
     
     display: inline-block;
@@ -79,13 +79,13 @@ header {
     margin: auto;
     
     font-family: 'Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
-    font-size:calc(1em + 0.5vw); /* Taille du Texte : */
+    font-size:calc(1em + 0.5vw); /* Taille du Texte : 1 + 0.5 de l'écran */
     text-decoration: none; /* Retire le format "lien" */
 }
 
 #navbar a:hover, #navbar a:active {
-    /*background-color: rgba(0, 0, 0, 0.5);
-    opacity: 0.9;*/
+    background-color: yellow;
+    /*opacity: 0.9;*/
 }
 
 /* ----- -----  Main (Corps de Page) ----- ----- */
