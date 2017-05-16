@@ -1,0 +1,88 @@
+html {
+    background-color: brown;
+}
+
+body {
+    background-color: darkorange;
+}
+
+/* ----- ----- Header (Haut de Page) ----- ----- */
+
+header {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: chartreuse;
+}
+
+#header_head {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: chartreuse;
+}
+
+/* Menu de Navigation (navbar) */
+
+#navbar {
+    display: inline-block;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: deeppink;
+}
+
+#navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#navbar li {
+    float:left;
+    border: outset 2px #000000;
+}
+
+/* ----- -----  Main (Corps de Page) ----- ----- */
+
+#main {
+    display: inline-block;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: yellow;
+}
+
+#content {
+    max-width: 70%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: cyan;
+    float: left;
+}
+
+/* Menu sur le côté (Sidebar) */
+
+#sidebar {
+    max-width: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: cyan;
+    float: right;
+}
+
+/* ----- ----- Footer (Bas de Page)  ----- ----- */
+
+footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    background-color: chartreuse;
+}
