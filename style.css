@@ -1,3 +1,13 @@
+ 
+/* ----- ----- RAPPELS & TIPS ----- ----- */
+/*
+
+Tailles :
+    1em = Taille de la police
+    1vw =1/100 de la largeur de la fenêtre)
+    -> Utiliser 'calc(2em + 5vw)' (par exemple) pour combiner et obtenir une taille minimum + 'responsive' !
+
+*/
 /* ----- ----- Général (Page) ----- ----- */
 
 html {
@@ -28,37 +38,56 @@ header {
     background-color: cyan;
 }
 
-/*#header_head {
-    min-width: 100%;
-    display: inline-block;
-    
+#header_head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 100%;  
     background-color: chartreuse;
-}*/
 
-#logo  {
-    display: inline-block;
-    max-height: 200px;
-    min-height: 50px;
-    margin-left: 2.5%;
-    margin-top: 2.5%;
-}
-
-#header_contact {
-    display: inline-block;
-    margin-left: 2.5%;
-    font-size:calc(1em + 1vw); /* Taille du Texte : 1 + 0.5 de l'écran */
     
 }
 
-#header_buttons {
+#header_head .col-md-4  {
+    
+    background-color: brown;
+    
+}
+
+#header_head .col-md-3  {
+    
+    background-color: skyblue;
+    
+}
+
+#logo  {    
+    width: 12vw;
+    min-width: 150px;
+    
+   /* float: none;
     margin-left: 2.5%;
-    display: inline-block;
+    margin-top: 2.5%;*/
+    /*margin: auto;
+    padding-left: 2%;*/
+}
+
+#header_contact {   
+    text-align: center;
+    font-size:calc(1em + 1vw);    
+    white-space: nowrap;
+    
+}
+
+#header_buttons { 
+    margin: auto;
     
 }
 
 #header_buttons .glyphicon-envelope,#header_buttons .glyphicon-earphone,#header_buttons .glyphicon-map-marker {
     
-    font-size:calc(2em + 5vw);
+    font-size:calc(3em + 2vw);
+    margin-left: 1vw;
     
 }
 
