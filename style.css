@@ -28,12 +28,12 @@ header {
     background-color: cyan;
 }
 
-#header_head {
+/*#header_head {
     min-width: 100%;
     display: inline-block;
     
     background-color: chartreuse;
-}
+}*/
 
 #logo  {
     display: inline-block;
@@ -53,6 +53,12 @@ header {
 #header_buttons {
     margin-left: 2.5%;
     display: inline-block;
+    
+}
+
+#header_buttons .glyphicon-envelope,#header_buttons .glyphicon-earphone,#header_buttons .glyphicon-map-marker {
+    
+    font-size:calc(2em + 5vw);
     
 }
 
