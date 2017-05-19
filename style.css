@@ -43,19 +43,19 @@ header {
     flex-direction: row;
     align-items: center;
     text-align: center;
-    width: 100%;  
+    width: 100%;
     background-color: chartreuse;
 
     
 }
 
-#header_head .col-md-4  {
+#header_head .col-md-4  { /* TEMP REMOVE */
     
     background-color: brown;
     
 }
 
-#header_head .col-md-3  {
+#header_head .col-md-3  { /* TEMP REMOVE */
     
     background-color: skyblue;
     

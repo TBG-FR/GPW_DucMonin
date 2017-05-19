@@ -41,7 +41,7 @@
                     
                 <!--</div>-->
                 
-                </div></div>
+                </div>
     
             <nav id="navbar">
                 <ul>
@@ -83,7 +83,7 @@
         
         <aside id="sidebar">
             <div class="sidebar_btn">
-                <a href="deposer_avis.php">Laisser un Avis</a>
+                <a class="btn btn-default" href="deposer_avis.php" role="link-button">Laisser un Avis</a>
             </div>
             
             <div id="avis_show">
@@ -124,7 +124,7 @@
             </div>
             
             <div class="sidebar_btn">
-                <a href="contact.html#devis">Demander un Devis</a>                
+                <a class="btn btn-default" href="contact.html#devis" role="link-button">Demander un Avis</a>
             </div>
             
             <div id="news_show">
@@ -143,7 +143,7 @@
             </div>
             
             <div class="sidebar_btn">
-                <a href="contact.html">Nous Contacter</a>                  
+                <a class="btn btn-default" href="contact.html" role="link-button">Nous Contacter</a>
             </div>
         </aside>
         </div>
