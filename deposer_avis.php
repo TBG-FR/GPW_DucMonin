@@ -1,47 +1,33 @@
 <!DOCTYPE html>
-<html>    
+<html>
+    
     <head>
         <meta charset="utf-8">
-        
-        <title>TITRE</title>
-                
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <!-- Custom CSS -->
+        <title>Deposer Avis</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="font-awesome.css">
     </head>
-    
     
     <body>
         <header>
-            
+        
             <div id="header_head">
                 
-                <!--<div class="row">-->
-                    
-                    <div class="col-md-3">
-                        <img src="logo.png" alt="Logo de Ducrozet-Moninot" id="logo">
-                    </div>
-                    
-                    <div class="col-md-5">
-                        <div id="header_contact"> 
-                            99 Chemin de l'Étang Neuf
-                            <br/>01000 St-Denis-lès-Bourg
-                            <br/>Tel: 04.74.11.22.33
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div id="header_buttons">
-                            <span class="glyphicon glyphicon-envelope" aria-label="Bouton-Icône : Contact"></span>
-                            <span class="glyphicon glyphicon-earphone" aria-label="Bouton-Icône : Téléphone"></span>
-                            <span class="glyphicon glyphicon-map-marker" aria-label="Bouton-Icône : Localisation"></span>
-                        </div>                    
-                    </div>
-                    
-                <!--</div>-->
+                <img src="logo.png" alt="Logo de Ducrozet-Moninot" id="logo">
+        
+                <div id="header_contact">
+                    99 Chemin de l'Étang Neuf
+                    <br/>01000 Saint-Denis-lès-Bourg
+                    <br/>Tel: 04.74.11.22.33
+                </div>
                 
-                </div></div>
+                <div id="header_buttons">
+                    <i class="fa fa-envelope fa-5x"></i>
+                    <i class="fa fa-phone fa-5x"></i>
+                    <i class="fa fa-map-marker fa-5x"></i>
+                </div>
+                
+            </div>
     
             <nav id="navbar">
                 <ul>
@@ -83,45 +69,20 @@
         
         <aside id="sidebar">
             <div class="sidebar_btn">
-                <a href="deposer_avis.php">Laisser un Avis</a>
+                <a href="index.php">Retour aux avis</a>
             </div>
-            
-            <div id="avis_show">
-                <p>
-                    <?php
-                    try {
-                        $bdd=new PDO ('mysql:host=localhost;dbname=bdd','root','');
-                    }
-                    catch (Exception $e)
-                    {
-                        die('Erreur : '.$e->getMessage());
-                    }
-                    
-                    
-                    
-                    ?>
-                    <?php
-                    
-                    
-                    $req=$bdd->query('SELECT commentaire,DATE_FORMAT(date_commentaire,\'%d/%m/%Y\') AS date_commentaire_fr FROM commentaires ORDER BY date_commentaire');
-                    //$req->execute(array($_GET['billet']));
-                    while($donnees = $req->fetch())
-                    {
-                    ?>
-                    <commentaire>
-                        <?php echo $donnees['commentaire'];?> <br \>
-                    </commentaire>
-                    <date>
-                        Le
-                        <?php echo $donnees['date_commentaire_fr'];?> <br \>
-                    </date>
-                    <br \>
-                    <?php
-                    }
-                    $req->closeCursor();
-                    ?>
-                </p>
-            </div>
+            Votre commentaire : <br\>
+            <form method="post" action="index.php">
+ 
+            <p>
+                
+                
+                <textarea name="message" rows="4" cols=10>
+                Votre message ici.
+                </textarea>
+            </p>
+
+            </form>
             
             <div class="sidebar_btn">
                 <a href="contact.html#devis">Demander un Devis</a>                
@@ -155,5 +116,7 @@
         </p>
     </footer>
         
-    </body>    
-</html>
+    </body>   
+    
+    
+    </html>
