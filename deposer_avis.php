@@ -3,11 +3,10 @@
     
     <head>
         <meta charset="utf-8">
-        <title>TITRE</title>
+        <title>Deposer Avis</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="font-awesome.css">
     </head>
-    
     
     <body>
         <header>
@@ -70,45 +69,20 @@
         
         <aside id="sidebar">
             <div class="sidebar_btn">
-                <a href="deposer_avis.php">Laisser un Avis</a>
+                <a href="index.php">Retour aux avis</a>
             </div>
-            
-            <div id="avis_show">
-                <p>
-                    <?php
-                    try {
-                        $bdd=new PDO ('mysql:host=localhost;dbname=bdd','root','');
-                    }
-                    catch (Exception $e)
-                    {
-                        die('Erreur : '.$e->getMessage());
-                    }
-                    
-                    
-                    
-                    ?>
-                    <?php
-                    
-                    
-                    $req=$bdd->query('SELECT commentaire,DATE_FORMAT(date_commentaire,\'%d/%m/%Y\') AS date_commentaire_fr FROM commentaires ORDER BY date_commentaire');
-                    //$req->execute(array($_GET['billet']));
-                    while($donnees = $req->fetch())
-                    {
-                    ?>
-                    <commentaire>
-                        <?php echo $donnees['commentaire'];?> <br \>
-                    </commentaire>
-                    <date>
-                        Le
-                        <?php echo $donnees['date_commentaire_fr'];?> <br \>
-                    </date>
-                    <br \>
-                    <?php
-                    }
-                    $req->closeCursor();
-                    ?>
-                </p>
-            </div>
+            Votre commentaire : <br\>
+            <form method="post" action="index.php">
+ 
+            <p>
+                
+                
+                <textarea name="message" rows="4" cols=10>
+                Votre message ici.
+                </textarea>
+            </p>
+
+            </form>
             
             <div class="sidebar_btn">
                 <a href="contact.html#devis">Demander un Devis</a>                
@@ -142,5 +116,7 @@
         </p>
     </footer>
         
-    </body>    
-</html>
+    </body>   
+    
+    
+    </html>
