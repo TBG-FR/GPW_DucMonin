@@ -94,40 +94,41 @@ header {
 /* ----- Menu de Navigation (navbar) ----- */
 
 #navbar {
+	overflow: hidden;
     margin-top: 2.5%;
-    min-width: 100%;
+	
+	min-width: 100%;
     
-    display: inline-block;
-    background-color: deeppink;
-}
+   /* display: inline-block;*/
+    background-color:none;
+	opacity:0.4;
+	
 
-#navbar ul {
-    list-style-type: none;
-    margin:auto;
 }
-
-#navbar li {
-    width: 12%;
-    display: inline-block;
-}
-
-#navbar a:link, #navbar a:visited {
-    width: 100%;
-    display: block;
-    font-weight: bold;
-    color: #FFFFFF;
-    background-color: rgba(0, 0, 0, 1);
-    text-align: center;
-    margin: auto;
-    
-    font-family: 'Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
+#navbar a{
+	background-color:black;
+	float: left;
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom:1%;
+	margin-top:1%;
+	margin-left:4%;
+	margin-right:2%;
+	font-family: 'Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
     font-size:calc(1em + 0.5vw); /* Taille du Texte : 1 + 0.5 de l'écran */
     text-decoration: none; /* Retire le format "lien" */
+	height:calc(2em + 0.5vw);
+	width:40%;
+	
+	
+	
 }
-
 #navbar a:hover, #navbar a:active {
-    background-color: yellow;
-    /*opacity: 0.9;*/
+    /* background-color: black; */
+	 background-image:radial-gradient(white 100%,black 100%);
+	color: grey;
+    /* opacity:; */
 }
 
 /* ----- -----  Main (Corps de Page) ----- ----- */
