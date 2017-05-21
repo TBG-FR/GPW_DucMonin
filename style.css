@@ -93,42 +93,43 @@ header {
 
 /* ----- Menu de Navigation (navbar) ----- */
 
-#navbar {
-	overflow: hidden;
-    margin-top: 2.5%;
-	
-	min-width: 100%;
-    
-   /* display: inline-block;*/
-    background-color:none;
-	opacity:0.4;
-	
-
+body {
+    font-family: 'Arimo', sans-serif;
+    padding-top: 50px;
 }
-#navbar a{
-	background-color:black;
-	float: left;
-	display: block;
-	color: #FFFFFF;
-	text-align: center;
-	margin-bottom:1%;
-	margin-top:1%;
-	margin-left:4%;
-	margin-right:2%;
+
+.menu-bar {
+    position: absolute;
+    top: 20px;    
+    left: 50%;
+    height: 14px;
+    margin-left: -10px;
+}
+
+.menu {
+    display: block; 
+    width: 100%;
+    padding: 15px 10px 15px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
 	font-family: 'Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
     font-size:calc(1em + 0.5vw); /* Taille du Texte : 1 + 0.5 de l'écran */
-    text-decoration: none; /* Retire le format "lien" */
-	height:calc(2em + 0.5vw);
-	width:40%;
-	
-	
-	
 }
-#navbar a:hover, #navbar a:active {
-    /* background-color: black; */
-	 background-image:radial-gradient(white 100%,black 100%);
-	color: grey;
-    /* opacity:; */
+.menu ul {
+    margin-bottom: 0;
+}
+.menu a {
+    color: grey; 
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+.menu a:hover {
+    text-decoration: none;
+	background-image:radial-gradient(white 100%, black 100%);
+	color :black;
+	    opacity: 0.8;
+
 }
 
 /* ----- -----  Main (Corps de Page) ----- ----- */
