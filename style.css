@@ -41,8 +41,9 @@ header {
 #header_head {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: nowrap;
+    /*justify-content: center;*/
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     margin: auto;
@@ -52,13 +53,21 @@ header {
     
 }
 
-#header_head .col-md-4  { /* TEMP REMOVE */
+@media all and (max-width:500px) {
+    
+    #header_head {
+        flex-flow: column wrap;
+    }
+    
+}
+
+#header_head .lamd4  { /* TEMP REMOVE */
     
     background-color: brown;
     
 }
 
-#header_head .col-md-3  { /* TEMP REMOVE */
+#header_head .lamd3  { /* TEMP REMOVE */
     
     background-color: skyblue;
     
@@ -90,8 +99,9 @@ header {
 #header_buttons .glyphicon-envelope,#header_buttons .glyphicon-earphone,#header_buttons .glyphicon-map-marker {
     
     font-size:calc(2em + 2vw);
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    flex-flow: column wrap;
     
 }
 
