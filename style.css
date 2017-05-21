@@ -8,13 +8,13 @@ Tailles :
     -> Utiliser 'calc(2em + 5vw)' (par exemple) pour combiner et obtenir une taille minimum + 'responsive' !
 
 */
+
 /* ----- ----- Général (Page) ----- ----- */
 
-html {
+html { /* TEMP REMOVE */
     background-color: brown;
 }
-
-body {
+body { /* TEMP REMOVE */
     background-color: darkorange;
 }
 
@@ -35,30 +35,26 @@ header {
     margin-left: 2.5%;
     margin-right: 2.5%;
     margin-top: 2.5%;
-    background-color: cyan;
+    background-color: cyan; /* TEMP REMOVE */
 }
 
 #header_head {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    /*justify-content: center;*/
-    justify-content: space-around;
+    justify-content: space-around; /*justify-content: center;*/
     align-items: center;
     text-align: center;
-    margin: auto;
-    width: 100%;
-    background-color: chartreuse;
-
+    margin: auto; /* USELESS ? */
+    width: 100%; /* USELESS ? */
+    background-color: chartreuse; /* TEMP REMOVE */
     
 }
 
-@media all and (max-width:500px) {
-    
+@media all and (max-width:500px) {    
     #header_head {
         flex-flow: column wrap;
-    }
-    
+    }    
 }
 
 #header_head .lamd4  { /* TEMP REMOVE */
@@ -66,7 +62,6 @@ header {
     background-color: brown;
     
 }
-
 #header_head .lamd3  { /* TEMP REMOVE */
     
     background-color: skyblue;
@@ -76,12 +71,6 @@ header {
 #logo  {    
     width: 12vw;
     min-width: 150px;
-    
-   /* float: none;
-    margin-left: 2.5%;
-    margin-top: 2.5%;*/
-    /*margin: auto;
-    padding-left: 2%;*/
 }
 
 #header_contact {   
@@ -92,7 +81,7 @@ header {
 }
 
 #header_buttons { 
-    margin: auto;
+    margin: auto; /* USELESS ? */
     
 }
 
@@ -112,7 +101,7 @@ header {
     min-width: 100%;
     
     display: inline-block;
-    background-color: deeppink;
+    background-color: deeppink; /* TEMP REMOVE */
 }
 
 #navbar ul {
@@ -152,7 +141,7 @@ header {
     margin-right: 2.5%;
     margin-bottom: 2.5%;
     /*margin-top: 2.5%;*/
-    background-color: yellow;
+    background-color: yellow; /* TEMP REMOVE */
 }
 
 #content {
@@ -161,7 +150,7 @@ header {
     margin-right: 2.5%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
-    background-color: cyan;
+    background-color: cyan; /* TEMP REMOVE */
     float: left;
 }
 
