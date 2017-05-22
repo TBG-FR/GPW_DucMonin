@@ -19,11 +19,11 @@
                 
                 <!--<div class="row">-->
                     
-                    <div class="col-md-3">
+                    <div class="lamd3">
                         <img src="logo.png" alt="Logo de Ducrozet-Moninot" id="logo">
                     </div>
                     
-                    <div class="col-md-5">
+                    <div class="lamd5">
                         <div id="header_contact"> 
                             99 Chemin de l'Étang Neuf
                             <br/>01000 St-Denis-lès-Bourg
@@ -31,11 +31,11 @@
                         </div>
                     </div>
                     
-                    <div class="col-md-4">
+                    <div class="lamd4">
                         <div id="header_buttons">
-                            <span class="glyphicon glyphicon-envelope" aria-label="Bouton-Icône : Contact"></span>
-                            <span class="glyphicon glyphicon-earphone" aria-label="Bouton-Icône : Téléphone"></span>
-                            <span class="glyphicon glyphicon-map-marker" aria-label="Bouton-Icône : Localisation"></span>
+                            <div class="glyphicon glyphicon-envelope" aria-label="Bouton-Icône : Contact"></div>
+                            <div class="glyphicon glyphicon-earphone" aria-label="Bouton-Icône : Téléphone"></div>
+                            <div class="glyphicon glyphicon-map-marker" aria-label="Bouton-Icône : Localisation"></div>
                         </div>                    
                     </div>
                     
