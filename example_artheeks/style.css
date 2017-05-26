@@ -1,0 +1,324 @@
+/* Polices : Permet le téléchargement automatique des polices par le Navigateur */
+@font-face {
+    font-family: 'Champagne'; /* nom de la police */
+    src: url('polices/Champagne.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ChampagneBold'; /* nom de la police */
+    src: url('polices/ChampagneBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'DeathNote'; /* nom de la police */
+	src: url('polices/DeathNote.ttf') format('truetype');
+}
+
+/* ---------- Général [Site] ---------- */
+
+body {
+    text-align: center; /* le text du corp sera centrer en général (les articles) */
+}
+
+section {
+    display: inline-block; /* fonction display permet de mettre un bloc en ligne */
+    width: 100%; /* taille de la section */
+}
+ 
+#titre {  /* CSS du Titre (Header) */
+    font-family: ChampagneBold, 'Trebuchet MS', Arial, sans-serif; /* choix de la police */
+    text-align: center;
+    font-size: 1.8em; /* taille de la police */
+    text-decoration: overline underline; /* souligné, ligne au dessus */
+}
+
+#erreur { /* pour la balise id=erreur */
+	font-size: 2em;
+	font-family: ChampagneBold, 'Trebuchet MS', Arial, sans-serif;
+}
+
+.info_auteur { /* pour la balise class=info_auteur */
+	width: 90%;
+	margin: auto; /* marge extérieur qui sont égales de partout */
+	padding-bottom: 5px; /* marge intérieur bas de 5 px */
+}
+
+.bloc_auteur h3 {
+	font-family: ChampagneBold, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 1.5em;
+	text-decoration: overline underline;
+}
+
+.nom_auteur {
+	font-family: ChampagneBold, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 1.2em;
+}
+
+/* ---------- Articles ---------- */
+
+.bloc_articles
+{
+    display: inline-block;
+    width: 60%;
+}
+
+.preface {
+    text-align: center;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    border: 2px solid black;
+    font-size: 1.2em;
+}
+
+.articles {
+    border: 2px solid green;
+    text-align: left;
+    padding: 0.5%;
+    margin-top: 1%;
+    overflow: auto;
+    font-size: 1.1em;
+}
+
+/* Design Valentin */
+
+.articles_img {
+    float: left;
+    margin: 5px;
+    width:150px;
+    height: 150px;
+} */
+
+.article {
+    border: 3px outset rgb(14,69,232);
+    text-align: left;
+    padding: 0.5%;
+    margin-top: 0.5%;
+    overflow: auto;
+    font-size: 1.1em;
+}
+
+.article_img {
+    float: left;
+    margin-top: 2%;
+}
+
+.article_title{
+	text-align: center;
+}
+
+#article_infos
+{
+	position: absolute;
+	bottom: 20%;
+	border-radius: 0px 0px 10px 10px;
+	width: 100%;
+	height:  33px;
+	padding-top: 15px;
+	padding-left: 4px;
+	background-color: rgba (71,140,234,0.8);
+	color: black;
+	font-size: 1.0em;
+}
+
+#article_infos a
+{
+	text-decoration: none;
+	color: black;
+}
+ 
+ .article_bouton
+ {
+	
+	display: inline-block;
+	position: absolute;
+	right: 30%;
+	bottom: -20%;
+	background-color: rgb(255,248,85);
+	border: 2px solid rgb(14,69,232);
+	border-radius: 5px;
+	font-size: 1em;
+	text-align: center;
+	padding: 3px 8px 0px 8px;
+}
+
+/* ---------- Article Unique ---------- */
+
+.article_u {
+    border: 2px solid blue;
+    padding: 0.5%;
+    margin-top: 1%;
+    overflow: auto;
+    font-size: 1.1em;
+}
+
+.article_u_titre {
+    font-family: ChampagneBold, 'Trebuchet MS', Arial, sans-serif;
+    text-align: center;
+    font-size: 1.6em;
+    text-decoration: overline underline;
+}
+
+.article_u_texte {
+    text-align: center;
+}
+
+.article_u_données {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+/* ---------- Menu de Navigation ("Navbar") ---------- */
+
+nav {
+    list-style-type: none; /* permet de supprimer les puces d'une liste */
+    display: inline-block;
+    text-align: center;
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li a:link, a:visited { /* quand le visiteur a deja vistiter la page */
+    display: inline-block;
+    padding: 8px 15px;
+    margin-left: auto; /* marge extérieur gauche */
+    margin-right: auto; /* marge extérieur droit */
+    border: outset 3px #888888;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover, nav a:active { /* au survol du lien et quand le visiteur clique sur le lien */
+    background-color: #888888;
+    opacity: 0.9; /* transparence du fond */
+}
+
+nav li {
+    float: left;
+    padding: 5px 10px;
+    /* border-left: solid 3px; */
+}
+
+/* ---------- Sidebar ---------- */
+
+.sidebar_secret {
+	border: 3px solid rgb(255,255,255);
+    display: inline-block;
+    width: 15%;
+    vertical-align: top; /* aligne les blocs en haut */
+    text-align: center;
+    margin-left: 0.5%;
+    padding: 0%;
+    font-size: 1.2em;
+	z-index: 1; /* le bloc sera en dessous d'un z-index > 1 */
+}
+.sidebar_secret p {
+	color: white;
+}
+.sidebar {
+    border: 3px solid red;
+    display: inline-block;
+    width: 17%;
+    vertical-align: top;
+    text-align: center;
+    margin-left: 0.5%;
+    padding: 0%;
+    font-size: 1.2em;
+	z-index: 2;
+	position: fixed; /* la sidebar est fixe */
+	top: 33.5%; /* à 33,5% par rapport au haut de la page */
+	right: 10%; /* à 10% par rapport a droite de la page */
+}
+
+.sidebar p {
+	color: rgb(0,0,0);
+}
+
+.sidebar h3 {
+	font-family: ChampagneBold,'Trebuchet MS', Arial, sans-serif;
+	border: 2px solid rgba(0,0,0,0.7);
+	color: rgb(0,0,0);
+	margin: 1px 40px 1px 40px;
+}
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.sidebar li a { 
+    display: inline-block;
+    padding: 1px 15px 1px 15px;
+	margin: 1px 30px 1px 30px;
+	border: 2px solid rgba(0,0,0,0.7);
+    font-family: ChampagneBold, 'Trebuchet MS', Arial, sans-serif;
+    text-decoration: none;
+	color: black;
+}
+
+.sidebar a:hover, nav a:active { /* au survol du lien et quand le visiteur clique sur le lien */
+    background-color: rgb(155,155,155);
+    opacity: 0.9;
+	color: black;
+}
+
+.sidebar li {
+    padding: 1px 5px;
+}
+
+#auteur {
+	margin: 0px 0px 0px 0px;
+	border-bottom: 3px solid red;
+}
+
+#menu_sidebar {
+	border-bottom: 3px solid red;
+}
+
+#lien_sidebar a {
+	color: black;
+	text-decoration: none;
+	border: 2px solid rgba(0,0,0,0.7);
+	margin: 1px 3px 1px 3px;
+}
+
+/* ---------- Footer ---------- */
+
+#footerp {
+    border: 2px solid black;
+	border-radius: 10px; /* arrondis de la bordure */
+    text-align: center;
+    width: 90%;
+    display: inline-block;
+	padding-top: 15px; /* marge intérieur haut */
+	padding-bottom: 15px; /* marge intérieur bas */
+}
+#footer u {
+	text-decoration: underline;
+}
+#ISN {
+	font-weight: bold;
+}
+#footerp em {
+	font-size: 1.2em;
+}
+
+/* -------------------- Type -------------------- */
+#id
+{
+}
+
+.class
+{
+}
+
+nom
+{
+}
