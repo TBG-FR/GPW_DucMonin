@@ -15,9 +15,9 @@
     <body>
         <header>
             
-            <?php include("header.php"); ?> <! Inclure le fichier "header.php" >
+            <?php include("header.php"); ?>
             
-            <?php include("navbar.php"); ?> <! Inclure le fichier "header.php" >
+            <?php include("navbar.php"); ?>
 
         </header>
     

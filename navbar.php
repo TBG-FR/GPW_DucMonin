@@ -1,4 +1,4 @@
-<! ------ "Header" : Haut de page (Logo, Contact, Boutons) ------ >
+<! ------ "Navbar" : Menu de Navigation ------ >
 
 <a class="menu-bar" data-toggle="collapse" href="#menu">
     <span class="bars"></span>
@@ -14,3 +14,5 @@
         <li><a href="#">Contact</a></li>
     </ul>
 </div>
+
+<! ------ "Navbar" : Fin du Bloc ------ >
