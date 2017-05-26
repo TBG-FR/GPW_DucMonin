@@ -19,11 +19,11 @@
                 
                 <!--<div class="row">-->
                     
-                    <div class="lamd3">
+                    <div class="col-md-3">
                         <img src="logo.png" alt="Logo de Ducrozet-Moninot" id="logo">
                     </div>
                     
-                    <div class="lamd5">
+                    <div class="col-md-5">
                         <div id="header_contact"> 
                             99 Chemin de l'Étang Neuf
                             <br/>01000 St-Denis-lès-Bourg
@@ -31,11 +31,11 @@
                         </div>
                     </div>
                     
-                    <div class="lamd4">
+                    <div class="col-md-4">
                         <div id="header_buttons">
-                            <div class="glyphicon glyphicon-envelope" aria-label="Bouton-Icône : Contact"></div>
-                            <div class="glyphicon glyphicon-earphone" aria-label="Bouton-Icône : Téléphone"></div>
-                            <div class="glyphicon glyphicon-map-marker" aria-label="Bouton-Icône : Localisation"></div>
+                            <span class="glyphicon glyphicon-envelope" aria-label="Bouton-Icône : Contact"></span>
+                            <span class="glyphicon glyphicon-earphone" aria-label="Bouton-Icône : Téléphone"></span>
+                            <span class="glyphicon glyphicon-map-marker" aria-label="Bouton-Icône : Localisation"></span>
                         </div>                    
                     </div>
                     
@@ -43,18 +43,20 @@
                 
                 </div>
     
-            <nav id="navbar">
-                <ul>
-                    <li><a href="">Présentation</a></li>
-                    <li><a href="">Maçonnerie</a></li>
-                    <li><a href="">Charpente</a></li>
-                    <li><a href="">Façade</a></li>
-                    <li><a href="">Maisons</a></li>
-                    <li><a href="realisations.html">Réalisations</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        
+           <a class="menu-bar" data-toggle="collapse" href="#menu">
+            <span class="bars"></span>            
+        </a>
+    	<div class="collapse menu" id="menu">
+            <ul class="list-inline">
+                <li><a href="#">Maçonnerie</a></li>
+                <li><a href="#">Charpente</a></li>
+                <li><a href="#">Façade</a></li>
+                <li><a href="#">Maisons</a></li>
+                <li><a href="#">Réalisation</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>   
+    	</div>
+
         </header>
     
         <div id="main">
