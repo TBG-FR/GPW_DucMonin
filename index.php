@@ -50,10 +50,7 @@
         </div>
     
     <footer>
-        <p id="legal">
-            SARL Ducrozet-Moninot (c) | 200X-2017 | Tous droits réservés
-            <br/>Réalisation : Dyvia F. / Simon H. / Florent P. / Tom-Brian G.
-        </p>
+        <?php include("footer.php"); ?>
     </footer>
         
     </body>    
