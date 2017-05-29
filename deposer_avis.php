@@ -5,6 +5,8 @@
         <meta charset="utf-8">
         <title>Deposer Avis</title>
         <link rel="stylesheet" href="style.css">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="font-awesome.css">
     </head>
     
@@ -68,21 +70,24 @@
             </section>
         
         <aside id="sidebar">
+            
+            
+            
+            
             <div class="sidebar_btn">
                 <a href="index.php">Retour aux avis</a>
             </div>
-            Votre commentaire : <br\>
-            <form method="post" action="index.php">
- 
-            <p>
-                
-                
-                <textarea name="message" rows="4" cols=10>
-                Votre message ici.
-                </textarea>
-            </p>
-
+            <form class="col-lg-6">
+                <div class="form-group">
+                    <label for="textarea">Laisser un avis :</label>
+                    <textarea id="textarea" type="textarea" class="form-control" name="textarea">
+                    </textarea>
+                </div>
+                <button type="submit" class="btn btn-default" action="envoyer.php">
+            Envoyer</button>
             </form>
+            
+            
             
             <div class="sidebar_btn">
                 <a href="contact.html#devis">Demander un Devis</a>                
