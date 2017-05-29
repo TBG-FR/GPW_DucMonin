@@ -1,6 +1,12 @@
- <aside id="sidebar">
+ <SCRIPT language="javascript">
+            function popup(page,nom,option) {
+              window.open(page,nom,option);
+            }
+          </SCRIPT>
+            
+        <aside id="sidebar">
             <div class="sidebar_btn">
-                <a class="btn btn-default" href="deposer_avis.php" role="link-button">Laisser un Avis</a>
+                <a class="btn btn-default" href="javascript:popup('popup.php','','top=200, height=100')" role="link-button">Laisser un Avis</a>
             </div>
             
             <div id="avis_show">
@@ -20,7 +26,7 @@
                     <?php
                     
                     
-                    $req=$bdd->query('SELECT commentaire,DATE_FORMAT(date_commentaire,\'%d/%m/%Y\') AS date_commentaire_fr FROM commentaires ORDER BY date_commentaire');
+                    $req=$bdd->query('SELECT commentaire,DATE_FORMAT(date_commentaire,\'%d/%m/%Y\') AS date_commentaire_fr FROM commentaires ORDER BY date_commentaire DESC');
                     //$req->execute(array($_GET['billet']));
                     while($donnees = $req->fetch())
                     {
