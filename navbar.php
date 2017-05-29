@@ -1,8 +1,8 @@
-<! ------ "Navbar" : Menu de Navigation ------ >
+<!-- ------ "Navbar" : Menu de Navigation ------ -->
 
-<a class="menu-bar" data-toggle="collapse" href="#menu">
+<!-- <a class="menu-bar" data-toggle="collapse" href="#menu">
     <span class="bars"></span>
-</a>
+</a>*/ -->
 
 <div class="collapse menu" id="menu">
     <ul class="list-inline">
@@ -15,4 +15,4 @@
     </ul>
 </div>
 
-<! ------ "Navbar" : Fin du Bloc ------ >
+<!-- ------ "Navbar" : Fin du Bloc ------ -->

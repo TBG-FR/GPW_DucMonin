@@ -1,4 +1,4 @@
-<! ------ "Header" : Haut de page (Logo, Contact, Boutons) ------ >
+<!-- ------ "Header" : Haut de page (Logo, Contact, Boutons) ------ -->
 
 <div id="header_head">
     <div class="lamd3">
@@ -22,4 +22,4 @@
     </div>
 </div>
 
-<! ------ "Header" : Fin du Bloc ------ >
+<!-- ------ "Header" : Fin du Bloc ------ -->
