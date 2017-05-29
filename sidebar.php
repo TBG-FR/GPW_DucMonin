@@ -41,7 +41,7 @@
             </div>
             
             <div class="sidebar_btn">
-                <a class="btn btn-default" href="contact.html#devis" role="link-button">Demander un Avis</a>
+                <a class="btn btn-default" href="contact.html#devis" role="link-button">Demander un Devis</a>
             </div>
             
             <div id="news_show">
