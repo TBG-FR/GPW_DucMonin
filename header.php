@@ -4,7 +4,7 @@
     <div class="lamd3">
         <img src="logo.png" alt="Logo de Ducrozet-Moninot" id="logo">
     </div>
-    
+
     <div class="lamd5">
         <div id="header_contact">
             99 Chemin de l'Étang Neuf
@@ -12,7 +12,7 @@
             <br/>Tel: 04.74.11.22.33
         </div>
     </div>
-    
+
     <div class="lamd4">
         <div id="header_buttons">
             <div class="glyphicon glyphicon-envelope" aria-label="Bouton-Icône : Contact"></div>
