@@ -30,7 +30,7 @@
 
                 <div class="description">
                     <p>                        
-                        Ducrozet-Moninot met son expérience et ses compétences à votre service pour concrétiser vos projets de <strong>construction</strong> ou de <strong>rénovation</strong>.<br />
+                        Ducrozet-Moninot met son expérience et ses compétences à votre service pour concrétiser vos projets de <strong>construction</strong> ou de <strong>rénovation</strong> divers et variés.<br />
                         Un large éventail de prestations est réalisé par nos artisans dans divers domaines.                        
                     </p>
                     <div>
@@ -43,8 +43,8 @@
                             <li>Construction de piscines en béton armé.</li>
                             <li>Mur de clôture, terrasse, auvent, garage, ...</li>
                         </ul>
-
-                        <center>N'hésitez pas à nous contacter pour de plus amples informations, ou même à nous demander un devis détaillé et gratuit !</center>
+                        
+                        <div class="conclusion">N'hésitez pas à nous contacter pour de plus amples informations, ou même à nous demander un devis détaillé et gratuit !</div>
 
                     </div>
 

@@ -80,8 +80,10 @@
 
 <div id="nosidebar">
     <p>
-        Vous consultez notre site sur un écran de petite taille, et par soucis de place et de confort, un menu vous est caché.<br />
-        Il contient les avis, les news, et plusieurs boutons liés. Si vous souhaitez y accéder, cliquez ci-dessous.<br />
+        Vous consultez notre site sur un écran de petite taille.<br />
+        Par soucis de place et de confort, un menu vous est caché.<br />
+        Il contient les avis, les news, et plusieurs boutons liés.<br />
+        Si vous souhaitez y accéder, cliquez ci-dessous.<br />
     </p>
     <div class="text-center">
         <a href="sidebar_only.php" class="btn btn-default">Voir le menu "Sidebar"</a>    
