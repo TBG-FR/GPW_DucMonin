@@ -69,3 +69,11 @@
         <a class="btn btn-default" href="contact.html" role="link-button">Nous Contacter</a>
     </div>
 </aside>
+
+<div id="nosidebar">
+    <p>
+        Vous consultez notre site sur un petit écran, et par soucis de place, un menu vous est caché.<br />
+        Ce menu contient les avis, les news, et plusieurs boutons liés.<br />
+        Si vous souhaitez y accéder, cliquez ici : <a href="sidebar_only.php">Voir le menu "Sidebar"</a>
+    </p>
+</div>

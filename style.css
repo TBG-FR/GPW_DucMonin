@@ -1,5 +1,5 @@
 
-/* ----- ----- RAPPELS & TIPS ----- ----- */
+/* ----- ----- ----- ----- RAPPELS & TIPS ----- ----- ----- ----- */
 /*
 
 Tailles :
@@ -8,6 +8,8 @@ Tailles :
 -> Utiliser 'calc(2em + 5vw)' (par exemple) pour combiner et obtenir une taille minimum + 'responsive' !
 
 */
+
+/* ----- ----- ----- ----- CSS "Global" ----- ----- ----- ----- */
 
 /* ----- ----- Général (Page) ----- ----- */
 
@@ -49,12 +51,6 @@ header {
     width: 100%; /* USELESS ? */
     background-color: chartreuse; /* TEMP REMOVE */
 
-}
-
-@media all and (max-width:500px) {    
-    #header_head {
-        flex-flow: column wrap;
-    }    
 }
 
 #header_head .lamd4  { /* TEMP REMOVE */
@@ -255,6 +251,11 @@ FILTRE GRIS + Message "Afficher"
     margin-bottom: 2.5%;
     background-color: cyan;
     float: right;
+    text-align: center;
+}
+
+#nosidebar {
+    display: none;
 }
 
 /* ----- ----- Footer (Bas de Page)  ----- ----- */
@@ -264,4 +265,22 @@ footer {
     margin-right: 5%;
     margin-top: 2.5%;
     background-color: chartreuse;
+}
+
+/* ----- ----- ----- ----- CSS "@media" (Responsive) ----- ----- ----- ----- */
+
+@media all and (max-width:500px) { /* Sur tous les médias, si la largeur d'affichage est plus petite que 500px */   
+    #header_head {
+        flex-flow: column wrap;     /* Header_Head : Afficher les éléments en colonne, les uns sous les autres */
+    }    
+    #sidebar {
+        display: none;
+    }    
+    #nosidebar {
+        display: inline;
+    }
+    #content {
+        max-width: 100%;
+        float:none;
+    }
 }
