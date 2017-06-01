@@ -1,5 +1,5 @@
 
-/* ----- ----- ----- ----- RAPPELS & TIPS ----- ----- ----- ----- */
+/* ----- ----- ----- ----- [RAPPELS & TIPS] ----- ----- ----- ----- */
 /*
 
 Tailles :
@@ -9,7 +9,7 @@ Tailles :
 
 */
 
-/* ----- ----- ----- ----- CSS "Global" ----- ----- ----- ----- */
+/* ----- ----- ----- ----- [CSS - Page "Sidebar Only"] ----- ----- ----- ----- */
 
 /* ----- ----- Général (Page) ----- ----- */
 
@@ -18,13 +18,17 @@ Tailles :
 /* ----- Menu de droite (Sidebar) ----- */
 
 #sidebar {
-    max-width: 100%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     background-color: cyan;
     text-align: center;
+    
+}
+
+#returnbutton {
+    display: inline;
     
 }
 

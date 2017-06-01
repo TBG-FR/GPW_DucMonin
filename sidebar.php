@@ -2,7 +2,15 @@
     function popup(page,nom,option) {
         window.open(page,nom,option);
     }
+    /* Permet de revenir à la Page Précédente */
+    function goBack() {
+        window.history.back();
+    }
 </SCRIPT>
+
+<div id="returnbutton">
+    <a class="btn btn-default" onclick="goBack()" role="link-button">Retourner à la Page Précédente</a>
+</div>
 
 <aside id="sidebar">
     <div class="sidebar_btn">

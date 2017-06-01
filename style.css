@@ -9,9 +9,9 @@ Tailles :
 
 */
 
-/* ----- ----- ----- ----- CSS "Global" ----- ----- ----- ----- */
+/* ----- ----- ----- ----- [CSS "Spécifique" : Éléments qui peuvent changer/évoluer] ----- ----- ----- ----- */
 
-/* ----- -----  Main (Corps de Page) ----- ----- */
+/* ----- -----  Main - Content (Contenu spécifique de la page) ----- ----- */
 
 #content {
     max-width: 70%;
@@ -23,7 +23,7 @@ Tailles :
     float: left;
 }
 
-/* ----- -----  Gallerie (Corps de Page) ----- ----- */
+/* ----- -----  Main - Content [Page Gallerie] ----- ----- */
 
 .gallery {
     min-width: 150px;
@@ -44,7 +44,7 @@ FILTRE GRIS + Message "Afficher"
 }
 
 
-/* ----- Menu de droite (Sidebar) ----- */
+/* ----- Main - Sidebar(Menu de droite) ----- */
 
 #sidebar {
     max-width: 20%;
@@ -57,6 +57,10 @@ FILTRE GRIS + Message "Afficher"
     text-align: center;
 }
 
+#returnbutton {
+    display: none;
+}
+
 #nosidebar {
     display: none;
 }
@@ -64,14 +68,17 @@ FILTRE GRIS + Message "Afficher"
 /* ----- ----- ----- ----- CSS "@media" (Responsive) ----- ----- ----- ----- */
 
 @media all and (max-width:500px) { /* Sur tous les médias, si la largeur d'affichage est plus petite que 500px */
+    
     #sidebar {
-        display: none;
-    }    
-    #nosidebar {
-        display: inline;
+        display: none;      /* Cacher la Sidebar */
     }
+    
+    #nosidebar {
+        display: inline;      /* Afficher le message NoSidebar */
+    }
+    
     #content {
-        max-width: 100%;
+        max-width: 100%;      /* Afficher le "Content" sur toute la page */
         float:none;
     }
 }

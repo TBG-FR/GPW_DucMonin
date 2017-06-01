@@ -1,5 +1,5 @@
 
-/* ----- ----- ----- ----- RAPPELS & TIPS ----- ----- ----- ----- */
+/* ----- ----- ----- ----- [RAPPELS & TIPS] ----- ----- ----- ----- */
 /*
 
 Tailles :
@@ -9,7 +9,7 @@ Tailles :
 
 */
 
-/* ----- ----- ----- ----- CSS "Global" ----- ----- ----- ----- */
+/* ----- ----- ----- ----- [CSS - Éléments "Globaux" du Site] ----- ----- ----- ----- */
 
 /* ----- ----- Général (Page) ----- ----- */
 
@@ -202,6 +202,7 @@ background-color: yellow;
 /* ----- -----  Main (Corps de Page) ----- ----- */
 
 #main {
+    width: 95%;
     display: inline-block;
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -209,7 +210,6 @@ background-color: yellow;
     /*margin-top: 2.5%;*/
     background-color: yellow; /* TEMP REMOVE */
 }
-
 
 /* ----- ----- Footer (Bas de Page)  ----- ----- */
 
