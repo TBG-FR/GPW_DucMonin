@@ -8,8 +8,8 @@
     }
 </SCRIPT>
 
-<div id="returnbutton">
-    <a class="btn btn-default" onclick="goBack()" role="link-button">Retourner à la Page Précédente</a>
+<div class="text-center" id="returnbutton">
+    <button type="button" onclick="goBack()" class="btn btn-default">Retourner à la Page Précédente</button>
 </div>
 
 <aside id="sidebar">
@@ -80,8 +80,10 @@
 
 <div id="nosidebar">
     <p>
-        Vous consultez notre site sur un petit écran, et par soucis de place, un menu vous est caché.<br />
-        Ce menu contient les avis, les news, et plusieurs boutons liés.<br />
-        Si vous souhaitez y accéder, cliquez ici : <a href="sidebar_only.php">Voir le menu "Sidebar"</a>
+        Vous consultez notre site sur un écran de petite taille, et par soucis de place et de confort, un menu vous est caché.<br />
+        Il contient les avis, les news, et plusieurs boutons liés. Si vous souhaitez y accéder, cliquez ci-dessous.<br />
     </p>
+    <div class="text-center">
+        <a href="sidebar_only.php" class="btn btn-default">Voir le menu "Sidebar"</a>    
+    </div>
 </div>

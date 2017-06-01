@@ -67,7 +67,7 @@ FILTRE GRIS + Message "Afficher"
 
 /* ----- ----- ----- ----- CSS "@media" (Responsive) ----- ----- ----- ----- */
 
-@media all and (max-width:500px) { /* Sur tous les médias, si la largeur d'affichage est plus petite que 500px */
+@media all and (max-width:700px)  { /* Sur tous les medias, si la largeur d'affichage est plus petite que 600px */
     
     #sidebar {
         display: none;      /* Cacher la Sidebar */
@@ -75,6 +75,12 @@ FILTRE GRIS + Message "Afficher"
     
     #nosidebar {
         display: inline;      /* Afficher le message NoSidebar */
+        text-align: center;
+        background-color: red;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
     }
     
     #content {

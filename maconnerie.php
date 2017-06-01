@@ -34,7 +34,7 @@
                         Un large éventail de prestations est réalisé par nos artisans dans divers domaines.                        
                     </p>
                     <div>
-                        <h3>Travaux de Maçonnerie générale :</h3>
+                        <h3>Travaux de Maçonnerie :</h3>
                         <ul>
                             <li>Construction de maisons individuelles (Nous proposons une <a href="maisons.php">réalisation complète du gros oeuvre de votre villa</a>).</li>
                             <li>Extensions de maison (Extension traditionnelle, Toiture, Terrasse, ...)</li>
@@ -44,7 +44,7 @@
                             <li>Mur de clôture, terrasse, auvent, garage, ...</li>
                         </ul>
 
-                        N'hésitez pas à nous contacter pour de plus amples informations, ou même à nous demander un devis détaillé et gratuit !
+                        <center>N'hésitez pas à nous contacter pour de plus amples informations, ou même à nous demander un devis détaillé et gratuit !</center>
 
                     </div>
 

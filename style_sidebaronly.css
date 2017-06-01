@@ -28,8 +28,14 @@ Tailles :
 }
 
 #returnbutton {
-    display: inline;
     
+    display: block;     /* Redonner son affichage normal au Bouton */
+    margin-top: 2.5%;
+}
+
+#returnbutton button {
+    
+    background-color: brown;    /* Couleur du Bouton */
 }
 
 #nosidebar {
