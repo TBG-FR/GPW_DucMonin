@@ -211,6 +211,11 @@ background-color: yellow;
     background-color: yellow; /* TEMP REMOVE */
 }
 
+#content {
+    width: 95%;
+    font-family: 'Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
+}
+
 /* ----- ----- Footer (Bas de Page)  ----- ----- */
 
 footer {

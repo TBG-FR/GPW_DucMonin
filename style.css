@@ -57,12 +57,20 @@ FILTRE GRIS + Message "Afficher"
     
     margin-left: 2.5%;
     margin-right: 2.5%;
+    font-size:calc(1em + 0.25vw); 
+    
+}
+
+.description ul {
+    
+    margin-top: 2.5%
     
 }
 
 .conclusion {
     text-align: center;
     margin-bottom: 2.5%;
+    font-size:calc(1em + 0.5vw);
 }
 
 .conclusion:before {

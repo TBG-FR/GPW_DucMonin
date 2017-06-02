@@ -30,11 +30,11 @@
 
                 <div class="description">
                     <p>                        
-                        Ducrozet-Moninot met son expérience et ses compétences à votre service pour concrétiser vos projets de <strong>construction</strong> ou de <strong>rénovation</strong> divers et variés.<br />
+                        <strong>Ducrozet-Moninot</strong> met son expérience et ses compétences à votre service pour concrétiser vos projets de <strong>construction</strong> ou de <strong>rénovation</strong> divers et variés.<br />
                         Un large éventail de prestations est réalisé par nos artisans dans divers domaines.                        
                     </p>
                     <div>
-                        <h3>Travaux de Maçonnerie :</h3>
+                       <!-- <h3>Travaux de Maçonnerie :</h3> -->
                         <ul>
                             <li>Construction de maisons individuelles (Nous proposons une <a href="maisons.php">réalisation complète du gros oeuvre de votre villa</a>).</li>
                             <li>Extensions de maison (Extension traditionnelle, Toiture, Terrasse, ...)</li>
@@ -43,11 +43,16 @@
                             <li>Construction de piscines en béton armé.</li>
                             <li>Mur de clôture, terrasse, auvent, garage, ...</li>
                         </ul>
-                        
-                        <div class="conclusion">N'hésitez pas à nous contacter pour de plus amples informations, ou même à nous demander un devis détaillé et gratuit !</div>
-
                     </div>
-
+                        
+                    <p class="conclusion">                        
+                        N'hésitez pas à nous contacter pour de plus amples informations, ou même à nous demander un devis détaillé et gratuit !
+                    </p>
+                    
+                </div>
+                
+                <div>
+                CAROUSEL OR THUMBNAILS
                 </div>
 
             </section>
