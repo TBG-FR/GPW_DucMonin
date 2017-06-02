@@ -19,7 +19,7 @@
 
     <div id="avis_show">
         <p>
-            <?php
+            <?php /*
             try {
                 $bdd=new PDO ('mysql:host=localhost;dbname=bdd','root','');
             }
@@ -27,12 +27,6 @@
             {
                 die('Erreur : '.$e->getMessage());
             }
-
-
-
-            ?>
-            <?php
-
 
             $req=$bdd->query('SELECT commentaire,DATE_FORMAT(date_commentaire,\'%d/%m/%Y\') AS date_commentaire_fr FROM commentaires ORDER BY date_commentaire DESC');
             //$req->execute(array($_GET['billet']));
@@ -50,7 +44,7 @@
             <?php
             }
             $req->closeCursor();
-            ?>
+            */ ?>
         </p>
     </div>
 
