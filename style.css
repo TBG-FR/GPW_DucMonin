@@ -1,4 +1,3 @@
-
 /* ----- ----- ----- ----- RAPPELS & TIPS ----- ----- ----- ----- */
 /*
 
@@ -73,6 +72,7 @@ FILTRE GRIS + Message "Afficher"
     
 }
 
+
 .description {
     
     margin-left: 2.5%;
@@ -84,7 +84,6 @@ FILTRE GRIS + Message "Afficher"
 .description ul {
     
     margin-top: 2.5%
-    
 }
 
 .conclusion {
