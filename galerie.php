@@ -8,6 +8,7 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom CSS -->
+        <link rel="stylesheet" href="globalstyle.css">
         <link rel="stylesheet" href="style.css">
         
     </head>
