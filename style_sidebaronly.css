@@ -1,0 +1,43 @@
+
+/* ----- ----- ----- ----- [RAPPELS & TIPS] ----- ----- ----- ----- */
+/*
+
+Tailles :
+1em = Taille de la police
+1vw =1/100 de la largeur de la fenêtre)
+-> Utiliser 'calc(2em + 5vw)' (par exemple) pour combiner et obtenir une taille minimum + 'responsive' !
+
+*/
+
+/* ----- ----- ----- ----- [CSS - Page "Sidebar Only"] ----- ----- ----- ----- */
+
+/* ----- ----- Général (Page) ----- ----- */
+
+
+
+/* ----- Menu de droite (Sidebar) ----- */
+
+#sidebar {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: cyan;
+    text-align: center;
+    
+}
+
+#returnbutton {
+    
+    display: block;     /* Redonner son affichage normal au Bouton */
+    margin-top: 2.5%;
+}
+
+#returnbutton button {
+    
+    background-color: brown;    /* Couleur du Bouton */
+}
+
+#nosidebar {
+    display: none;
+}

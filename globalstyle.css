@@ -1,0 +1,233 @@
+
+/* ----- ----- ----- ----- [RAPPELS & TIPS] ----- ----- ----- ----- */
+/*
+
+Tailles :
+1em = Taille de la police
+1vw =1/100 de la largeur de la fenêtre)
+-> Utiliser 'calc(2em + 5vw)' (par exemple) pour combiner et obtenir une taille minimum + 'responsive' !
+
+*/
+
+/* ----- ----- ----- ----- [CSS - Éléments "Globaux" du Site] ----- ----- ----- ----- */
+
+/* ----- ----- Général (Page) ----- ----- */
+
+html { /* TEMP REMOVE */
+    background-color: brown;
+}
+body { /* TEMP REMOVE */
+    background-color: darkorange;
+}
+
+/* ----- Polices Ajoutées ----- */
+@font-face {
+    font-family: 'Champagne';
+    src: url('Champagne.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ChampagneBold';
+    src: url('ChampagneBold.ttf') format('truetype');
+}
+
+/* ----- ----- Header (Haut de Page) ----- ----- */
+
+header {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    background-color: cyan; /* TEMP REMOVE */
+}
+
+#header_head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around; /*justify-content: center;*/
+    align-items: center;
+    text-align: center;
+    margin: auto; /* USELESS ? */
+    width: 100%; /* USELESS ? */
+    background-color: chartreuse; /* TEMP REMOVE */
+
+}
+
+#header_head .lamd4  { /* TEMP REMOVE */
+
+    background-color: brown;
+
+}
+#header_head .lamd3  { /* TEMP REMOVE */
+
+    background-color: skyblue;
+
+}
+
+#logo  {    
+    width: 12vw;
+    min-width: 150px;
+}
+
+#header_contact {   
+    text-align: center;
+    font-size:calc(1em + 1vw);    
+    white-space: nowrap;
+
+}
+
+#header_buttons { 
+    margin: auto; /* USELESS ? */
+
+}
+
+#header_buttons .glyphicon-envelope,#header_buttons .glyphicon-earphone,#header_buttons .glyphicon-map-marker {
+
+    font-size:calc(2em + 2vw);
+    margin-left: 1vw;
+    margin-right: 1vw;
+    flex-flow: column wrap;
+
+}
+
+/* ----- Menu de Navigation (navbar) ----- */
+
+.menu-bar {
+    position: absolute;
+    top: 20px;    
+    left: 50%;
+    height: 14px;
+    margin-left: -10px;
+}
+
+.menu {
+    display: block; 
+    width: 100%;
+    padding: 15px 10px 15px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    /*
+    font-family: 'Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre /
+    font-size:calc(1em  0.5vw); /* Taille du Texte : 1  0.5 de l'écran /
+    text-decoration: none; /* Retire le format "lien" /
+    height:calc(2em  0.5vw);
+    width:40%;*/ 
+}
+
+.menu ul {
+    margin-bottom: 0;
+}
+
+.menu a {
+    color: grey; 
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    background-image:radial-gradient(white 100%, black 100%);
+    color: black;
+    opacity: 0.8; 
+}
+
+/*#navbar {
+margin-top: 2.5%;
+min-width: 100%;
+
+display: inline-block;
+background-color: deeppink; /* TEMP REMOVE /
+}
+
+#navbar ul {
+list-style-type: none;
+margin:auto;
+}
+
+#navbar li {
+width: 12%;
+display: inline-block;
+}
+
+#navbar a:link, #navbar a:visited {
+width: 100%;
+display: block;
+font-weight: bold;
+color: #FFFFFF;
+background-color: rgba(0, 0, 0, 1);
+text-align: center;
+margin: auto;
+
+font-family: 'Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre /
+font-size:calc(1em + 0.5vw); /* Taille du Texte : 1 + 0.5 de l'écran /
+text-decoration: none; /* Retire le format "lien" /
+}
+
+#navbar a:hover, #navbar a:active {
+background-color: yellow;
+/*opacity: 0.9;/
+}*/
+
+/*
+-#navbar {
+-	overflow: hidden;
+-    margin-top: 2.5%;
+-	
+-	min-width: 100%;
+-    
+-   /* display: inline-block;/
+-    background-color:none;
+-	opacity:0.4;
+-	
+-
+-}
+-#navbar a{
+-	background-color:black;
+-	float: left;
+-	display: block;
+-	color: #FFFFFF;
+-	text-align: center;
+-	margin-bottom:1%;
+-	margin-top:1%;
+-	margin-left:4%;
+-	margin-right:2%;
+-#navbar a:hover, #navbar a:active {
+-    /* background-color: black; /
+-	 background-image:radial-gradient(white 100%,black 100%);
+-	color: grey;
+-    /* opacity:; /
+}*/
+
+/* ----- -----  Main (Corps de Page) ----- ----- */
+
+#main {
+    width: 95%;
+    display: inline-block;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+    /*margin-top: 2.5%;*/
+    background-color: yellow; /* TEMP REMOVE */
+}
+
+#content {
+    width: 95%;
+    font-family: 'Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
+}
+
+/* ----- ----- Footer (Bas de Page)  ----- ----- */
+
+footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    background-color: chartreuse;
+}
+
+/* ----- ----- ----- ----- CSS "@media" (Responsive) ----- ----- ----- ----- */
+
+@media all and (max-width:500px) { /* Sur tous les médias, si la largeur d'affichage est plus petite que 500px */   
+    #header_head {
+        flex-flow: column wrap;     /* Header_Head : Afficher les éléments en colonne, les uns sous les autres */
+    }
