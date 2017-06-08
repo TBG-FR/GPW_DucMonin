@@ -12,7 +12,7 @@
         $date=date("Y-m-d H:i:s");
         $id=7;
         $auteur='unknow';
-        $req = $bdd->prepare('INSERT INTO commentaires(auteur,commentaire, date_commentaire) VALUES(:auteur, :commentaire, :date)');
+        $req = $bdd->prepare('INSERT INTO commentaires(auteur,commentaire, date_commentaire, afficher) VALUES(:auteur, :commentaire, :date,0)');
         $req->execute(array(
             'auteur' => $auteur,
             'commentaire' => $text,

@@ -13,33 +13,14 @@
         <link rel="stylesheet" href="style.css">
 
     </head>
+    
 <body>
-<div id="accadmin">
-    <a class="btn btn-default" href="admin_avis.php" role="link-button">Gérer les commentaires</a>
-    
-    <a class="btn btn-default" href="admin_news.php" role="link-button">Gérer les news</a>
-    
-    </div>
+    <?php include("admin.php"); ?>
+    <div id="admin">
+
+            </div>
+    <footer>
+            <?php include("footer.php"); ?>
+        </footer>
         </body>
     </html> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
