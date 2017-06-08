@@ -33,13 +33,13 @@
             while($donnees = $req->fetch())
             {
             ?>
-            <commentaire>
+            <div id="commentaire">
                 <?php echo $donnees['commentaire'];?> <br \>
-            </commentaire>
-            <date>
+            </div>
+            <div id="date">
                 Le
                 <?php echo $donnees['date_commentaire_fr'];?> <br \>
-            </date>
+            </div>
             <br \>
             <?php
             }
