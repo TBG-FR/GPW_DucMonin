@@ -26,11 +26,11 @@
         <div id="main">
 
             <section id="content">
-                <h1>Maçonnerie</h1>
+                <h1>Travaux de Maçonnerie</h1>
 
                 <div class="description">
                     <p>                        
-                        <strong>Ducrozet-Moninot</strong> met son expérience et ses compétences à votre service pour concrétiser vos projets de <strong>construction</strong> ou de <strong>rénovation</strong> divers et variés.<br />
+                        <em>Ducrozet-Moninot</em> met son expérience et ses compétences à votre service pour concrétiser vos projets de <strong>construction</strong> ou de <strong>rénovation</strong> divers et variés.<br /><br />
                         Un large éventail de prestations est réalisé par nos artisans dans divers domaines.                        
                     </p>
                     <div>

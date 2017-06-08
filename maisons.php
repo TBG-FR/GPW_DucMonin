@@ -30,7 +30,7 @@
 
                 <div class="description">
                     <p> 
-                        <strong>Ducrozet-Moninot</strong> construit des maisons individuelles dans la région de Bourg-en-Bresse depuis plus de 16 ans. Nous vous mettons en relation avec des <strong>architectes ou maîtres d'ouvrage locaux</strong> pour l'élaboration des plans, le permis de construire et la conception de votre villa.<br />
+                        <em>Ducrozet-Moninot</em> construit des maisons individuelles dans la région de Bourg-en-Bresse depuis plus de 16 ans. Nous vous mettons en relation avec des <strong>architectes ou maîtres d'ouvrage locaux</strong> pour l'élaboration des plans, le permis de construire et la conception de votre villa.<br /><br />
                         Notre <strong>réseau d'entreprises locales</strong> dans les autres corps de métiers (électrictions, plombiers, menuisiers, carreleurs, plâtriers-peintres, …) est une réelle <strong>garantie de qualité</strong> pour la réalisation de votre construction, car ce sont des <strong>entreprises connues et réputées</strong>, et de vrais artisans locaux avec qui nous travaillons régulièrement.
                     </p>
                     <div>
