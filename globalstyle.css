@@ -268,9 +268,20 @@ footer {
         margin-left: 2%;
         margin-right: 2%;
         margin-bottom: 0.5%;
+        padding-left: 0.5%;
         text-align: left;
-        font-size:calc(0.5em + 1vw);
+        font-size:calc(0.6em + 1vw);
     }
+#date {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 0.5%;
+        padding-left: 0.5%;
+        text-align: right;
+        font-size:calc(0.2em + 1vw);
+    }
+
+
 #boutonenvoi {
     margin-top: 2%;
 }
