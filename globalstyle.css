@@ -18,6 +18,7 @@ html { /* TEMP REMOVE */
 }
 body { /* TEMP REMOVE */
     background-color: darkorange;
+    
 }
 
 /* ----- Polices Ajoutées ----- */
@@ -211,6 +212,8 @@ background-color: yellow;
     background-color: yellow; /* TEMP REMOVE */
 }
 
+
+
 #content {
     width: 95%;
     font-family: 'Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
@@ -231,3 +234,43 @@ footer {
     #header_head {
         flex-flow: column wrap;     /* Header_Head : Afficher les éléments en colonne, les uns sous les autres */
     }
+}
+    
+#admin{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 1.5%;
+    padding-right: 1.5%;
+    z-index: 3;
+    text-align: right;
+    font-size:calc(0.5em + 0.5vw);
+    background-color: grey;
+    
+}
+
+#accadmin{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    z-index: 3;
+    text-align: center;
+    font-size:calc(0.5em + 0.5vw);
+    
+}
+
+#boutonret{
+    margin-top: 2.5%;
+}
+    
+#commentaire {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 0.5%;
+        text-align: left;
+        font-size:calc(0.5em + 1vw);
+    }
+#boutonenvoi {
+    margin-top: 2%;
+}
