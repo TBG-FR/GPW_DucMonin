@@ -223,6 +223,10 @@ footer {
     margin-right: 5%;
     margin-top: 2.5%;
     background-color: chartreuse;
+    text-align: center;
+}
+
+.legal {
 }
 
 /* ----- ----- ----- ----- CSS "@media" (Responsive) ----- ----- ----- ----- */

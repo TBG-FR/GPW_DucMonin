@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>Maçonnerie - Ducrozet-Moninot</title>
+        <title>Travaux de Maçonnerie - Ducrozet-Moninot</title>
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -37,11 +37,11 @@
                        <!-- <h3>Travaux de Maçonnerie :</h3> -->
                         <ul>
                             <li>Construction de maisons individuelles (Nous proposons une <a href="maisons.php">réalisation complète du gros oeuvre de votre villa</a>).</li>
-                            <li>Extensions de maison (Extension traditionnelle, Toiture, Terrasse, ...)</li>
+                            <li>Extensions de maison (Extension traditionnelle, Toiture, Terrasse, ...).</li>
                             <li>Rénovation de bâtiments anciens (Démolition et Rénovation).</li>
                             <li>Ouverture en sous œuvre (Mur porteur ou non, mise en place IPN ou HEA).</li>
                             <li>Construction de piscines en béton armé.</li>
-                            <li>Mur de clôture, terrasse, auvent, garage, ...</li>
+                            <li>Réalisations : Mur de clôture, terrasse, auvent, garage, ...</li>
                         </ul>
                     </div>
                         
