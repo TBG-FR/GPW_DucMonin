@@ -1,3 +1,4 @@
+
 /* ----- ----- ----- ----- RAPPELS & TIPS ----- ----- ----- ----- */
 /*
 
@@ -18,53 +19,32 @@ Tailles :
     margin-right: 2.5%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
-    background-color: rgba(122 ,181 ,160 ,0.9); /* TEMP REMOVE */
+    background-color: cyan; /* TEMP REMOVE */
     float: left;
 }
 
 /* ----- -----  Main - Content [Page Gallerie] ----- ----- */
 
-/*
 .gallery {
     min-width: 150px;
     margin: 1%;
-    //border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     float: left;
     width: 22%;
     height: 16%;
     background-color: red;
 }
 
-div.gallery:hover {
+/*div.gallery:hover {
 FILTRE GRIS + Message "Afficher"
-}
+}*/
 
 .gallery img {
     width: 100%;
 }
-*/
-  
-.gallery {
-      min-width: 150px;
-      margin: 1%;
-      min-width: 75px;
-      min-height: 50px;
-      margin: 1.44%;
-      /*border: 1px solid #ccc;*/
-      float: left;
-      width: 22%;
-      height: 16%;
-      background-color: red;
-}
-      
-.gallery img {
-    width: 100%;
-    width: 220px;
-    height: 150px;
-    page-break-inside: avoid;
-}
-      
-/* ----- -----  Main - Content [Pages Type] ----- ----- */
+
+
+/* */
 
 #content h1 {
     
@@ -84,11 +64,7 @@ FILTRE GRIS + Message "Afficher"
 .description ul {
     
     margin-top: 2.5%
-}
-
-.description li {
     
-    margin-top: 1%
 }
 
 .conclusion {
@@ -107,134 +83,36 @@ FILTRE GRIS + Message "Afficher"
     display: block;
     max-width: 50%;
 }
+/* ----- Main - A ----- */
 
-.conclusion:after {
-    content: " ";
-    border: 1px solid black;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    max-width: 50%;
+
+.TEMP img{
+	display: block;
+	padding-left:2%;
+	max-width:100%;
+	height: auto;
+		background-image:blue;
+
+	
+	
+}
+TEMP > area{
+	
+	transform-origin:center 0;
 }
 
-/* ----- Carousel----- */
-
-.Carousel_container {
-    background-color: chartreuse; /* TEMP REMOVE */
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-bottom: 2.5%;
-    border: 0.25vw solid grey;
-    border-radius: 0.25vw;
+body {display:table-cell;vertical-align:none;}
+map {position:relative;display:block;height:100%;width:100%;top:0;left:0;line-height:100%;}
+area {display:inline-block;width:10%;position:relative;z-index:1;line-height:1em;
+background:rgba(0,0,0,0.25);color:white;line-height:40px;border-radius:3em;}
+area:after {content:attr(title);}
+area[title]:hover {z-index:2;background:rgba(0,0,0,0);box-shadow:0 0 10px 1px white, 0 0 0 0 rgba(100,50,0,0.5);}
+area[title="Maçonnerie"] {position:absolute;left:2%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
+area[title="Charpente"] {position:absolute;left:26.5%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
+area[title="Façade"] {position:absolute;left:51%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
+area[title="Maison"] {position:absolute;left:75.5%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
 }
-
-.carousel-inner .item {
-    color: aquamarine;
-}
-
-.carousel-caption a {
-    text-align: center;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.6);
-    text-decoration: none;
-    font-size:calc(1em + 0.2vw);
-    font-weight: bold;
-    
-}
-
-.carousel-caption .btn-default {
-    margin-bottom: 2.5%;
-    
-}
-
-/*.Carousel_container:after {
-    text-align: center;
-    margin-bottom: 2.5%;
-    font-size:calc(1em + 0.5vw);
-    content: "tout voir"
-}*/
-
-
-
-      
-/* ----- -----  Main - Content [Page Contact] ----- ----- */
-
-#contact h2{
-    
-    text-align: center;
-    
-}
-
-#contact {
-    display: inline-block;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-}
-
-#contact_informations {
-    float: left;
-    width: 35%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    white-space: nowrap;
-}
-
-.c_info_element {
-    font-size:calc(1em + 0.5vw);    
-}
-
-.c_info_element .glyphicon-earphone {
-    font-size:calc(1em + 0.5vw);
-}
-
-#contact_formulaire {
-    float: right;
-    width: 50%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-}
-
-/* ----- Formulaire ----- */
-
-/* Add a background color and some padding around the form */
-#contact_formulaire {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-/* ----- -----  Main - Sidebar(Menu de droite) ----- ----- */
+/* ----- Main - Sidebar(Menu de droite) ----- */
 
 #sidebar {
     max-width: 20%;
@@ -242,12 +120,9 @@ input[type=submit]:hover {
     margin-right: 2.5%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
-    background-color: cyan; /* TEMP REMOVE */
+    background-color: cyan;
     float: right;
     text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    background-color: rgba(122 ,181 ,160 ,0.9);
 }
 
 #returnbutton {
@@ -276,14 +151,8 @@ input[type=submit]:hover {
         margin-bottom: 2.5%;
     }
     
-    #nosidebar p {        
-        font-style: italic;
-    }
-    
     #content {
         max-width: 100%;      /* Afficher le "Content" sur toute la page */
         float:none;
     }
 }
-
-
