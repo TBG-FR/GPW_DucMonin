@@ -67,19 +67,31 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="la.jpg" alt="Los Angeles">
+                                <img src="la.jpg" alt="" title="" >
+                                <div class="carousel-caption">
+                                    <a class="btn btn-default" href="galerie.php" role="link-button">> Tout voir <</a>
+                                </div>
                             </div>
 
                             <div class="item">
-                                <img src="chicago.jpg" alt="Chicago">
+                                <img src="chicago.jpg" alt="" title="" >
+                                <div class="carousel-caption">
+                                    <a class="btn btn-default" href="galerie.php" role="link-button">> Tout voir <</a>
+                                </div>
                             </div>
 
                             <div class="item">
-                                <img src="ny.jpg" alt="New york">
+                                <img src="ny.jpg" alt="" title="" >
+                                <div class="carousel-caption">
+                                    <a class="btn btn-default" href="galerie.php" role="link-button">> Tout voir <</a>
+                                </div>
                             </div>
 
                             <div class="item">
-                                <img src="ny.jpg" alt="New york">
+                                <img src="ny.jpg" alt="" title="" >
+                                <div class="carousel-caption">
+                                    <a class="btn btn-default" href="galerie.php" role="link-button">> Tout voir <</a>
+                                </div>
                             </div>
                         </div>
 
