@@ -1,3 +1,10 @@
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
 <SCRIPT language="javascript">
     function popup(page,nom,option) {
         window.open(page,nom,option);
@@ -13,9 +20,41 @@
 </div>
 
 <aside id="sidebar">
-    <div class="sidebar_btn">
-        <a class="btn btn-default" href="javascript:popup('popup.php','','top=200, height=100')" role="link-button">Laisser un Avis</a>
-    </div>
+                <!-- Trigger the modal with a button -->
+            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal"> Laisser un avis </button>
+
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Laisser un avis</h4>
+                  </div>
+                  <div class="modal-body">
+                      
+                      
+                    <form action="envoyer.php" method="post" class="col-lg-6">
+
+                    <div class="form-group">
+                        <label for="textarea">Laisser un avis :</label>
+                        <textarea id="textarea" type="textarea" class="form-control" name="textarea"></textarea>
+
+                    </div>
+
+                    <input type="submit" class="btn btn-default" value="Envoyer"/>
+
+                      </form>  
+                  </div>
+                  <div class="modal-footer">
+        
+                    </div>
+                </div>
+
+              </div>
+            </div>
 
     <div id="avis_show">
         <p>
@@ -33,13 +72,17 @@
             while($donnees = $req->fetch())
             {
             ?>
-            <div id="commentaire">
+            <div id="separation">
+            <div id="commentaireside">
                 <?php echo $donnees['commentaire'];?> <br \>
             </div>
-            <div id="date">
+            <div id="dateside">
                 Le
                 <?php echo $donnees['date_commentaire_fr'];?> <br \>
             </div>
+                
+                </div>
+        <div id="entre"></div>
             <br \>
             <?php
             }
