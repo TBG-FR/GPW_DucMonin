@@ -247,6 +247,10 @@ input[type=submit]:hover {
         margin-bottom: 2.5%;
     }
     
+    #nosidebar p {        
+        font-style: italic;
+    }
+    
     #content {
         max-width: 100%;      /* Afficher le "Content" sur toute la page */
         float:none;
