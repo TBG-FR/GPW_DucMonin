@@ -18,7 +18,7 @@ Tailles :
     margin-right: 2.5%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
-    background-color: cyan; /* TEMP REMOVE */
+    background-color: rgba(122 ,181 ,160 ,0.9); /* TEMP REMOVE */
     float: left;
 }
 
@@ -195,6 +195,9 @@ input[type=submit]:hover {
     background-color: cyan;
     float: right;
     text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgba(122 ,181 ,160 ,0.9);
 }
 
 #returnbutton {
@@ -228,3 +231,5 @@ input[type=submit]:hover {
         float:none;
     }
 }
+
+

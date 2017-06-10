@@ -18,11 +18,10 @@
             'commentaire' => $text,
             'date' => $date
         ));
-        echo 'Le jeu a bien été ajouté !';
-        //résoudre pb d'ID !!
 ?>
 
 <SCRIPT language="javascript">
-            window.opener.location.reload();
-             window.self.close();
+            //window.opener.location.reload();
+             //window.self.close();
+            window.history.back();
 </SCRIPT>

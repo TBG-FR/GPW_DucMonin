@@ -27,8 +27,4 @@ $bdd->exec('UPDATE commentaires SET afficher=0');
         ));   
         } 
 ?>
-
-<SCRIPT language="javascript">
-            window.opener.location.reload();
-             window.self.close();
-</SCRIPT> 
+<?php header('Location: admin_avis.php'); ?>

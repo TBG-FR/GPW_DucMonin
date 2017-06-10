@@ -15,6 +15,7 @@
     </head>
     
 <body>
+    <a class="btn btn-default" href="index.php" role="link-button">Retour à l'accueil</a>
     <?php include("admin.php"); ?>
     <div id="admin">
 <?php 
