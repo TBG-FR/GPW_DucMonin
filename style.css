@@ -64,7 +64,7 @@ FILTRE GRIS + Message "Afficher"
     page-break-inside: avoid;
 }
       
-/* ------------------------ */
+/* ----- -----  Main - Content [Pages Type] ----- ----- */
 
 #content h1 {
     
@@ -118,8 +118,21 @@ FILTRE GRIS + Message "Afficher"
     display: block;
     max-width: 50%;
 }
+
+/* ----- Carousel----- */
+
+.Carousel_container {
+    background-color: chartreuse;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.carousel-inner .item {
+    color: aquamarine;
+}
       
-/* ------------------------ */
+/* ----- -----  Main - Content [Page Contact] ----- ----- */
 
 #contact h2{
     
@@ -195,7 +208,7 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-/* ----- Main - Sidebar(Menu de droite) ----- */
+/* ----- -----  Main - Sidebar(Menu de droite) ----- ----- */
 
 #sidebar {
     max-width: 20%;

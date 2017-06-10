@@ -54,13 +54,14 @@
                 </div>
 
 
-                <div class="carousel_p">
+                <div class="Carousel_container">
                     <div id="Carousel_Maconnerie" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li data-target="#Carousel_Maconnerie" data-slide-to="0" class="active"></li>
                             <li data-target="#Carousel_Maconnerie" data-slide-to="1"></li>
                             <li data-target="#Carousel_Maconnerie" data-slide-to="2"></li>
+                            <li data-target="#Carousel_Maconnerie" data-slide-to="3"></li>
                         </ol>
 
                         <!-- Wrapper for slides -->
@@ -76,16 +77,20 @@
                             <div class="item">
                                 <img src="ny.jpg" alt="New york">
                             </div>
+
+                            <div class="item">
+                                <img src="ny.jpg" alt="New york">
+                            </div>
                         </div>
 
                         <!-- Left and right controls -->
                         <a class="left carousel-control" href="#Carousel_Maconnerie" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left"></span>
-                            <span class="sr-only">Previous</span>
+                            <span class="sr-only">Précédent</span>
                         </a>
                         <a class="right carousel-control" href="#Carousel_Maconnerie" data-slide="next">
                             <span class="glyphicon glyphicon-chevron-right"></span>
-                            <span class="sr-only">Next</span>
+                            <span class="sr-only">Suivant</span>
                         </a>
                     </div>
                 </div>
