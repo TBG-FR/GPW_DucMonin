@@ -107,6 +107,17 @@ FILTRE GRIS + Message "Afficher"
     display: block;
     max-width: 50%;
 }
+
+.conclusion:after {
+    content: " ";
+    border: 1px solid black;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 50%;
+}
       
 /* ------------------------ */
 

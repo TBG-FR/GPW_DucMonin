@@ -10,9 +10,11 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="globalstyle.css">
         <link rel="stylesheet" href="style.css">
+        <!-- Javascript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 
     </head>
-
 
     <body>
         <header>
@@ -34,7 +36,7 @@
                         Un large éventail de prestations est réalisé par nos artisans dans divers domaines.                        
                     </p>
                     <div>
-                       <!-- <h3>Travaux de Maçonnerie :</h3> -->
+                        <!-- <h3>Travaux de Maçonnerie :</h3> -->
                         <ul>
                             <li>Construction de maisons individuelles (Nous proposons une <a href="maisons.php">réalisation complète du gros oeuvre de votre villa</a>).</li>
                             <li>Extensions de maison (Extension traditionnelle, Toiture, Terrasse, ...).</li>
@@ -44,15 +46,48 @@
                             <li>Réalisations : Mur de clôture, terrasse, auvent, garage, ...</li>
                         </ul>
                     </div>
-                        
+
                     <p class="conclusion">                        
                         N'hésitez pas à nous contacter pour de plus amples informations, ou même à nous demander un devis détaillé et gratuit !
                     </p>
-                    
+
                 </div>
-                
-                <div>
-                CAROUSEL OR THUMBNAILS
+
+
+                <div class="carousel_p">
+                    <div id="Carousel_Maconnerie" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#Carousel_Maconnerie" data-slide-to="0" class="active"></li>
+                            <li data-target="#Carousel_Maconnerie" data-slide-to="1"></li>
+                            <li data-target="#Carousel_Maconnerie" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="la.jpg" alt="Los Angeles">
+                            </div>
+
+                            <div class="item">
+                                <img src="chicago.jpg" alt="Chicago">
+                            </div>
+
+                            <div class="item">
+                                <img src="ny.jpg" alt="New york">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#Carousel_Maconnerie" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#Carousel_Maconnerie" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
 
             </section>
