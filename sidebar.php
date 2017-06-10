@@ -74,12 +74,10 @@
 
 <div id="nosidebar">
     <p>
-        Vous consultez notre site sur un écran de petite taille.<br />
-        Par soucis de place et de confort, un menu vous est caché.<br />
-        Il contient les avis, les news, et plusieurs boutons liés.<br />
-        Si vous souhaitez y accéder, cliquez ci-dessous.<br />
+        Un menu a été caché car votre écran est trop petit pour l'afficher.<br />
+        Il contient les avis, les nouveautés, et plusieurs boutons liés.<br />
     </p>
     <div class="text-center">
-        <a href="sidebar_only.php" class="btn btn-default">Voir le menu "Sidebar"</a>    
+        <a href="sidebar_only.php" class="btn btn-default">Afficher le menu "Sidebar"</a>    
     </div>
 </div>
