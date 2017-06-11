@@ -71,7 +71,7 @@
                             <!-- Slide #1 (Actif) -->
                             <div class="item active">
                                 <!-- Image de la Slide -->
-                                <img src="images/maconnerie/carousel/t1.jpg" alt="TODO" title="TODO" >
+                                <img src="images/maconnerie/carousel/q1.jpg" alt="TODO" title="TODO" >
                                 <div class="carousel-caption">
                                     <!-- Bouton sur la Slide -->
                                     <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
@@ -81,17 +81,17 @@
                             <!-- Slide #2 -->
                             <div class="item">
                                 <!-- Image de la Slide -->
-                                <img src="images/maconnerie/carousel/t2.jpg" alt="TODO" title="TODO" >
+                                <img src="images/maconnerie/carousel/q2.jpg" alt="TODO" title="TODO" >
                                 <div class="carousel-caption">
                                     <!-- Bouton sur la Slide -->
-                                    <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
+                                    <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
                                 </div>
                             </div>
                             
                             <!-- Slide #3 -->
                             <div class="item">
                                 <!-- Image de la Slide -->
-                                <img src="images/maconnerie/carousel/t3.jpg" alt="TODO" title="TODO" >
+                                <img src="images/maconnerie/carousel/q3.jpg" alt="TODO" title="TODO" >
                                 <div class="carousel-caption">
                                     <!-- Bouton sur la Slide -->
                                     <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
@@ -101,7 +101,7 @@
                             <!-- Slide #3 -->
                             <div class="item">
                                 <!-- Image de la Slide -->
-                                <img src="images/maconnerie/carousel/t4.jpg" alt="TODO" title="TODO" >
+                                <img src="images/maconnerie/carousel/q4.jpg" alt="TODO" title="TODO" >
                                 <div class="carousel-caption">
                                     <!-- Bouton sur la Slide -->
                                     <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>

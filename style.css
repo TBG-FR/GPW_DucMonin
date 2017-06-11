@@ -132,6 +132,12 @@ FILTRE GRIS + Message "Afficher"
 
 .carousel-inner .item {
     max-height: 500px;
+    vertical-align: center;
+    margin: auto;
+}
+
+.carousel-inner .item .btn {    /* USELESS ? */
+    /*font-size:calc(1em + 0.5vw);*/
 }
 
 /*.carousel-inner .item img {
