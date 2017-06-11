@@ -53,10 +53,11 @@
 
                 </div>
 
-
+                <!-- Carousel (Images qui défilent) -->
                 <div class="Carousel_container">
                     <div id="Carousel_Maconnerie" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
+                        
+                        <!-- Boutons de Navigation -->
                         <ol class="carousel-indicators">
                             <li data-target="#Carousel_Maconnerie" data-slide-to="0" class="active"></li>
                             <li data-target="#Carousel_Maconnerie" data-slide-to="1"></li>
@@ -64,38 +65,51 @@
                             <li data-target="#Carousel_Maconnerie" data-slide-to="3"></li>
                         </ol>
 
-                        <!-- Wrapper for slides -->
+                        <!-- Div qui contient/recadre les Slides -->
                         <div class="carousel-inner">
+                            
+                            <!-- Slide #1 (Actif) -->
                             <div class="item active">
-                                <img src="images/maconnerie/carousel/c1.jpg" alt="TODO" title="TODO" >
+                                <!-- Image de la Slide -->
+                                <img src="images/maconnerie/carousel/t1.jpg" alt="TODO" title="TODO" >
                                 <div class="carousel-caption">
+                                    <!-- Bouton sur la Slide -->
+                                    <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
+                                </div>
+                            </div>                            
+                            
+                            <!-- Slide #2 -->
+                            <div class="item">
+                                <!-- Image de la Slide -->
+                                <img src="images/maconnerie/carousel/t2.jpg" alt="TODO" title="TODO" >
+                                <div class="carousel-caption">
+                                    <!-- Bouton sur la Slide -->
+                                    <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
+                                </div>
+                            </div>
+                            
+                            <!-- Slide #3 -->
+                            <div class="item">
+                                <!-- Image de la Slide -->
+                                <img src="images/maconnerie/carousel/t3.jpg" alt="TODO" title="TODO" >
+                                <div class="carousel-caption">
+                                    <!-- Bouton sur la Slide -->
                                     <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
                                 </div>
                             </div>
 
+                            <!-- Slide #3 -->
                             <div class="item">
-                                <img src="images/maconnerie/carousel/c2.jpg" alt="TODO" title="TODO" >
+                                <!-- Image de la Slide -->
+                                <img src="images/maconnerie/carousel/t4.jpg" alt="TODO" title="TODO" >
                                 <div class="carousel-caption">
-                                    <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <img src="images/maconnerie/carousel/c3.jpg" alt="TODO" title="TODO" >
-                                <div class="carousel-caption">
-                                    <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <img src="images/maconnerie/carousel/c1.jpg" alt="TODO" title="TODO" >
-                                <div class="carousel-caption">
+                                    <!-- Bouton sur la Slide -->
                                     <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Left and right controls -->
+                        <!-- Boutons "Suivant" & "Précédent" -->
                         <a class="left carousel-control" href="#Carousel_Maconnerie" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left"></span>
                             <span class="sr-only">Précédent</span>

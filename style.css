@@ -130,10 +130,21 @@ FILTRE GRIS + Message "Afficher"
     border-radius: 0.25vw;
 }
 
-.carousel-inner .item img {
+.carousel-inner .item {
+    max-height: 500px;
+}
+
+/*.carousel-inner .item img {
     vertical-align: middle;
     content: "BEHUFHUIHD";
 }
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+    margin-bottom: 60px;
+}*/
 
 .carousel-caption a {
     text-align: center;
