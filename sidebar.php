@@ -95,19 +95,39 @@
         <a class="btn btn-default" href="contact.html#devis" role="link-button">Demander un Devis</a>
     </div>
 
-    <div id="news_show">
+    <div id="avis_show">
         <p>
-            { Affichage des dernières news }
-            <br /> Voeux 2017
-            <br />- par Admin, Janvier 2017
-            <br />
-            <br /> Nouveau Site
-            <br />- Pierre, Mars 2016
-            <br />
-            <br /> Fête du BTP
-            <br />- Jean, Juillet 2016
-            <br />
-        </p>                
+            <?php 
+            try {
+                $bdd=new PDO ('mysql:host=localhost;dbname=bdd','root','');
+            }
+            catch (Exception $e)
+            {
+                die('Erreur : '.$e->getMessage());
+            }
+
+            $req=$bdd->query('SELECT texte,DATE_FORMAT(date,\'%d/%m/%Y\') AS date FROM news ORDER BY date DESC');
+            //$req->execute(array($_GET['billet']));
+            while($donnees = $req->fetch())
+            {
+            ?>
+            <div id="separation">
+            <div id="commentaireside">
+                <?php echo $donnees['texte'];?> <br \>
+            </div>
+            <div id="dateside">
+                Le
+                <?php echo $donnees['date'];?> <br \>
+            </div>
+                
+                </div>
+        <div id="entre"></div>
+            <br \>
+            <?php
+            }
+            $req->closeCursor();
+            ?>
+        </p>            
     </div>
 
     <div class="sidebar_btn">

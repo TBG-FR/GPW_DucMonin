@@ -36,7 +36,7 @@
                  <form action ="checkbox.php" method="post">
                 <?php 
                 $id=$donnees['id'];?>
-                <section id="commentaire">
+                <section id="commentaireside">
                 <input type="checkbox" name="coche[]" value=" <?php echo($id);?> " >
                     <?php echo $donnees['commentaire'];?> <br \>
                 </section>
@@ -47,7 +47,7 @@
             <?php } ?>
             
                 <section id="boutonenvoi">
-             <input type="submit" value="Envoyer" />
+             <input type="submit" value="Choisir commentaires à afficher" />
                      </section>
             </form>
            

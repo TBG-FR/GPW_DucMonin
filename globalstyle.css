@@ -201,8 +201,8 @@ footer {
 }
     
 #admin{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-top: 5%;
     margin-bottom: 5%;
     padding-top: 1.5%;
@@ -248,6 +248,7 @@ footer {
 
 #boutonenvoi {
     margin-top: 2%;
+    text-align: center;
 }
 
 #commentaireside {
@@ -286,4 +287,8 @@ footer {
 #avis_show {
     margin-top: 15%;
     
+}
+
+#boutonform{
+    text-align: center;
 }
