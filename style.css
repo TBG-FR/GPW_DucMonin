@@ -123,21 +123,25 @@ FILTRE GRIS + Message "Afficher"
 
 .Carousel_container {
     background-color: chartreuse; /* TEMP REMOVE */
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-bottom: 2.5%;
     border: 0.25vw solid grey;
     border-radius: 0.25vw;
 }
 
 .carousel-inner .item {
-    max-height: 500px;
+    height: 30vw;
     vertical-align: center;
     margin: auto;
 }
 
-.carousel-inner .item .btn {    /* USELESS ? */
-    /*font-size:calc(1em + 0.5vw);*/
+.Carousel_container, .carousel-inner {
+    max-width: 1024px; /* Ici, mettre la largeur des images (prendre des images de même largeur ?) pour éviter des problèmes lors du redimensionnement */
+    margin: auto;
+}
+
+.carousel-inner .item {
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*font-size:calc(1em + 0.5vw);*/   /* USELESS ? */
 }
 
 /*.carousel-inner .item img {
@@ -173,6 +177,22 @@ FILTRE GRIS + Message "Afficher"
     content: "tout voir"
 }*/
 
+/* ----- Carousel : Maconnerie ----- */
+#Carousel_Maconnerie .carousel-inner .item-1 {
+    background-image: url(images/maconnerie/carousel/1.jpg);
+}
+
+#Carousel_Maconnerie .carousel-inner .item-2 {
+    background-image: url(images/maconnerie/carousel/2.jpg);
+}
+
+#Carousel_Maconnerie .carousel-inner .item-3 {
+    background-image: url(images/maconnerie/carousel/3.jpg);
+}
+
+#Carousel_Maconnerie .carousel-inner .item-4 {
+    background-image: url(images/maconnerie/carousel/4.jpg);
+}
 
 
       

@@ -69,9 +69,9 @@
                         <div class="carousel-inner">
                             
                             <!-- Slide #1 (Actif) -->
-                            <div class="item active">
+                            <div class="item active item-1">
                                 <!-- Image de la Slide -->
-                                <img src="images/maconnerie/carousel/q1.jpg" alt="TODO" title="TODO" >
+                                <!-- <img src="images/maconnerie/carousel/q1.jpg" alt="TODO" title="TODO" >  -->
                                 <div class="carousel-caption">
                                     <!-- Bouton sur la Slide -->
                                     <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
@@ -79,9 +79,9 @@
                             </div>                            
                             
                             <!-- Slide #2 -->
-                            <div class="item">
+                            <div class="item item-2">
                                 <!-- Image de la Slide -->
-                                <img src="images/maconnerie/carousel/q2.jpg" alt="TODO" title="TODO" >
+                                <!-- <img src="images/maconnerie/carousel/q2.jpg" alt="TODO" title="TODO" >  -->
                                 <div class="carousel-caption">
                                     <!-- Bouton sur la Slide -->
                                     <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
@@ -89,9 +89,9 @@
                             </div>
                             
                             <!-- Slide #3 -->
-                            <div class="item">
+                            <div class="item item-3">
                                 <!-- Image de la Slide -->
-                                <img src="images/maconnerie/carousel/q3.jpg" alt="TODO" title="TODO" >
+                                <!-- <img src="images/maconnerie/carousel/q3.jpg" alt="TODO" title="TODO" >  -->
                                 <div class="carousel-caption">
                                     <!-- Bouton sur la Slide -->
                                     <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
@@ -99,9 +99,9 @@
                             </div>
 
                             <!-- Slide #3 -->
-                            <div class="item">
+                            <div class="item item-4">
                                 <!-- Image de la Slide -->
-                                <img src="images/maconnerie/carousel/q4.jpg" alt="TODO" title="TODO" >
+                                <!-- <img src="images/maconnerie/carousel/q4.jpg" alt="TODO" title="TODO" >  -->
                                 <div class="carousel-caption">
                                     <!-- Bouton sur la Slide -->
                                     <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
