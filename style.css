@@ -24,7 +24,13 @@ Tailles :
 
 /* ----- -----  Main - Accueil ----- ----- */
 
-
+#accueil {
+    margin-left: 2.5%;
+    /*margin-right: 2.5%;*/
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: rgba(122 ,181 ,160 ,0.9); /* TEMP REMOVE */
+}
 
 .TEMP img{
     display: block;
