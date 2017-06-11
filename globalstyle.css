@@ -22,20 +22,50 @@ body { /* TEMP REMOVE */
     
 }
 
-/* ----- Polices Ajoutées ----- */
+/* ----- Polices Ajoutées & Mise en Forme ----- */
+
+@font-face {
+    font-family: 'Archive';
+    src: url('fonts/Archive.otf') format('truetype');
+}
+
 @font-face {
     font-family: 'Champagne';
-    src: url('Champagne.ttf') format('truetype');
+    src: url('fonts/Champagne & Limousines.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Champagne';   /* Version en italique */
+    src: url('fonts/Champagne & Limousines Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
 }
 
 @font-face {
     font-family: 'ChampagneBold';
-    src: url('ChampagneBold.ttf') format('truetype');
+    src: url('fonts/Champagne & Limousines Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ChampagneBold';   /* Version en italique */
+    src: url('fonts/Champagne & Limousines Bold Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Faux gras, pour pouvoir passer ChampagneBold en Gras */
+strong {   
+    text-shadow: 1px 0px 1px currentColor; /* 1px 0px 0px pour enlever le "flou" */
 }
 
 /* ----- ----- Header (Haut de Page) ----- ----- */
 
 header {
+    font-family: 'Archive','Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
     margin-left: 2.5%;
     margin-right: 2.5%;
     margin-top: 2.5%;
@@ -59,6 +89,7 @@ header {
     /*background-color: brown;*/
 
 }
+
 #header_head .lamd3  { /* TEMP REMOVE */
 
     /*background-color: skyblue;*/
@@ -108,6 +139,7 @@ header {
     margin: 0 auto;
     text-align: center;
     background-color: #fff;
+    font-size: calc(0.75em + 0.75vw); 
     /*
     font-family: 'Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre /
     font-size:calc(1em  0.5vw); /* Taille du Texte : 1  0.5 de l'écran /
@@ -143,11 +175,7 @@ header {
     margin-bottom: 2.5%;
     /*margin-top: 2.5%;*/
     background-color: rgba(122 ,181 ,160 ,0.3);  /*TEMP REMOVE */
-}
-
-#content {
-    width: 95%;
-    font-family: 'Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
+    font-family: 'ChampagneBold','Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
 }
 
 /* ----- ----- Footer (Bas de Page)  ----- ----- */

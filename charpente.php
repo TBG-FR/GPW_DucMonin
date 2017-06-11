@@ -10,6 +10,9 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="globalstyle.css">
         <link rel="stylesheet" href="style.css">
+        <!-- Javascript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 
     </head>
 
@@ -30,8 +33,10 @@
 
                 <div class="description">
                     <p>                        
-                        Les charpentiers de chez <em>Ducrozet-Moninot</em> assurent la pose de charpentes et de couvertures sur bâtiment neuf ou ancien depuis 15 ans maintenant dans la région de Bourg en Bresse.<br /><br />
-                        Que ce soit en neuf ou en rénovation, nous vous proposons des <strong>solutions adaptées</strong> à vos exigences, dans le <strong>respect de votre budget</strong>.          
+                        Les charpentiers de chez <em>Ducrozet-Moninot</em> assurent la pose de charpentes et de couvertures sur bâtiment neuf ou ancien depuis 15 ans maintenant dans la région de Bourg en Bresse.
+                        <br /><br />
+                        Que ce soit en neuf ou en rénovation, nous vous proposons des <strong>solutions adaptées</strong> à vos exigences, dans le <strong>respect de votre budget</strong>.
+                        <br />
                     </p>
                     <div>
                        <!-- <h3>Travaux de Charpente - Couverture :</h3> -->
@@ -53,9 +58,69 @@
                     </p>
                     
                 </div>
-                
-                <div>
-                CAROUSEL OR THUMBNAILS
+
+                <!-- Carousel (Images qui défilent) -->
+                <div class="Carousel_container">
+                    <div id="Carousel_Charpente" class="carousel slide" data-ride="carousel">
+                        
+                        <!-- Boutons de Navigation -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#Carousel_Charpente" data-slide-to="0" class="active"></li>
+                            <li data-target="#Carousel_Charpente" data-slide-to="1"></li>
+                            <li data-target="#Carousel_Charpente" data-slide-to="2"></li>
+                            <li data-target="#Carousel_Charpente" data-slide-to="3"></li>
+                        </ol>
+
+                        <!-- Div qui contient/recadre les Slides -->
+                        <div class="carousel-inner">
+                            
+                            <!-- Slide #1 (Actif) -->
+                            <div class="item active item-1">
+                                <!-- Image de la Slide -->
+                                <div class="carousel-caption">
+                                    <!-- Bouton sur la Slide -->
+                                    <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
+                                </div>
+                            </div>                            
+                            
+                            <!-- Slide #2 -->
+                            <div class="item item-2">
+                                <!-- Image de la Slide -->
+                                <div class="carousel-caption">
+                                    <!-- Bouton sur la Slide -->
+                                    <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
+                                </div>
+                            </div>
+                            
+                            <!-- Slide #3 -->
+                            <div class="item item-3">
+                                <!-- Image de la Slide -->
+                                <div class="carousel-caption">
+                                    <!-- Bouton sur la Slide -->
+                                    <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
+                                </div>
+                            </div>
+
+                            <!-- Slide #3 -->
+                            <div class="item item-4">
+                                <!-- Image de la Slide -->
+                                <div class="carousel-caption">
+                                    <!-- Bouton sur la Slide -->
+                                    <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Boutons "Suivant" & "Précédent" -->
+                        <a class="left carousel-control" href="#Carousel_Charpente" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Précédent</span>
+                        </a>
+                        <a class="right carousel-control" href="#Carousel_Charpente" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Suivant</span>
+                        </a>
+                    </div>
                 </div>
 
             </section>

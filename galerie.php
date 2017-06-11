@@ -27,14 +27,13 @@
         
             <section id="content">
                 
-                 <div align="center">
-            <button class="btn btn-default filter-button" data-filter="all">All</button>
-            <button class="btn btn-default filter-button" data-filter="charpente">Charpentes</button>
-            <button class="btn btn-default filter-button" data-filter="facade">Facade</button>
-            <button class="btn btn-default filter-button" data-filter="maconnerie">Maconnerie</button>
-            <button class="btn btn-default filter-button" data-filter="maison">Maison</button>
-        </div>
-        <br/>
+            <div id="gallery_buttons">
+                <button class="btn btn-default filter-button" data-filter="all">Tout</button>
+                <button class="btn btn-default filter-button" data-filter="charpente">Charpente et Couverture</button>
+                <button class="btn btn-default filter-button" data-filter="facade">Facade</button>
+                <button class="btn btn-default filter-button" data-filter="maconnerie">Maçonnerie</button>
+                <button class="btn btn-default filter-button" data-filter="maison">Maisons Individuelles</button>
+            </div>
                 
                 
                 <div class="gallery filter charpente">
