@@ -67,30 +67,30 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="la.jpg" alt="" title="" >
+                                <img src="images/maconnerie/carousel/c1.jpg" alt="TODO" title="TODO" >
                                 <div class="carousel-caption">
-                                    <a class="btn btn-default" href="galerie.php" role="link-button">> Tout voir <</a>
+                                    <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
                                 </div>
                             </div>
 
                             <div class="item">
-                                <img src="chicago.jpg" alt="" title="" >
+                                <img src="images/maconnerie/carousel/c2.jpg" alt="TODO" title="TODO" >
                                 <div class="carousel-caption">
-                                    <a class="btn btn-default" href="galerie.php" role="link-button">> Tout voir <</a>
+                                    <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
                                 </div>
                             </div>
 
                             <div class="item">
-                                <img src="ny.jpg" alt="" title="" >
+                                <img src="images/maconnerie/carousel/c3.jpg" alt="TODO" title="TODO" >
                                 <div class="carousel-caption">
-                                    <a class="btn btn-default" href="galerie.php" role="link-button">> Tout voir <</a>
+                                    <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
                                 </div>
                             </div>
 
                             <div class="item">
-                                <img src="ny.jpg" alt="" title="" >
+                                <img src="images/maconnerie/carousel/c1.jpg" alt="TODO" title="TODO" >
                                 <div class="carousel-caption">
-                                    <a class="btn btn-default" href="galerie.php" role="link-button">> Tout voir <</a>
+                                    <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
                                 </div>
                             </div>
                         </div>

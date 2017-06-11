@@ -130,8 +130,9 @@ FILTRE GRIS + Message "Afficher"
     border-radius: 0.25vw;
 }
 
-.carousel-inner .item {
-    color: aquamarine;
+.carousel-inner .item img {
+    vertical-align: middle;
+    content: "BEHUFHUIHD";
 }
 
 .carousel-caption a {
