@@ -47,8 +47,9 @@
                         </ul>
                     </div>
 
-                    <p class="conclusion">                        
-                        N'hésitez pas à nous contacter pour de plus amples informations, ou même à nous demander un devis détaillé et gratuit !
+                    <p class="conclusion">
+                        <!-- N'hésitez pas à nous contacter pour de plus amples informations, ou même à nous demander un devis détaillé et gratuit ! -->
+                        N'hésitez pas à nous contacter pour de plus amples informations, ou demandez-nous un devis détaillé et gratuit !
                     </p>
 
                 </div>
@@ -71,17 +72,17 @@
                             <!-- Slide #1 (Actif) -->
                             <div class="item active item-1">
                                 <!-- Image de la Slide -->
-                                <!-- <img src="images/maconnerie/carousel/q1.jpg" alt="TODO" title="TODO" >  -->
+                                <!-- <img src="images/maconnerie/carousel/q1.jpg" alt="TODO" title="TODO" >  OLD WAY -->
                                 <div class="carousel-caption">
                                     <!-- Bouton sur la Slide -->
-                                    <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
+                                    <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
                                 </div>
                             </div>                            
                             
                             <!-- Slide #2 -->
                             <div class="item item-2">
                                 <!-- Image de la Slide -->
-                                <!-- <img src="images/maconnerie/carousel/q2.jpg" alt="TODO" title="TODO" >  -->
+                                <!-- <img src="images/maconnerie/carousel/q2.jpg" alt="TODO" title="TODO" >  OLD WAY -->
                                 <div class="carousel-caption">
                                     <!-- Bouton sur la Slide -->
                                     <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
@@ -91,20 +92,20 @@
                             <!-- Slide #3 -->
                             <div class="item item-3">
                                 <!-- Image de la Slide -->
-                                <!-- <img src="images/maconnerie/carousel/q3.jpg" alt="TODO" title="TODO" >  -->
+                                <!-- <img src="images/maconnerie/carousel/q3.jpg" alt="TODO" title="TODO" >  OLD WAY -->
                                 <div class="carousel-caption">
                                     <!-- Bouton sur la Slide -->
-                                    <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
+                                    <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
                                 </div>
                             </div>
 
                             <!-- Slide #3 -->
                             <div class="item item-4">
                                 <!-- Image de la Slide -->
-                                <!-- <img src="images/maconnerie/carousel/q4.jpg" alt="TODO" title="TODO" >  -->
+                                <!-- <img src="images/maconnerie/carousel/q4.jpg" alt="TODO" title="TODO" >  OLD WAY -->
                                 <div class="carousel-caption">
                                     <!-- Bouton sur la Slide -->
-                                    <a class="btn btn-default" href="galerie.php" role="TODO">> Tout voir <</a>
+                                    <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
                                 </div>
                             </div>
                         </div>

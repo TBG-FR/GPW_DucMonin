@@ -131,17 +131,15 @@ FILTRE GRIS + Message "Afficher"
     height: 30vw;
     vertical-align: center;
     margin: auto;
-}
-
-.Carousel_container, .carousel-inner {
-    max-width: 1024px; /* Ici, mettre la largeur des images (prendre des images de même largeur ?) pour éviter des problèmes lors du redimensionnement */
-    margin: auto;
-}
-
-.carousel-inner .item {
     background-repeat: no-repeat;
     background-position: center center;
     /*font-size:calc(1em + 0.5vw);*/   /* USELESS ? */
+}
+
+.Carousel_container {
+    max-width: 1024px; /* Ici, mettre la largeur des images (prendre des images de même largeur ?) pour éviter des problèmes lors du redimensionnement */
+    margin: auto;
+    margin-bottom: 2.5%;
 }
 
 /*.carousel-inner .item img {
@@ -178,21 +176,25 @@ FILTRE GRIS + Message "Afficher"
 }*/
 
 /* ----- Carousel : Maconnerie ----- */
-#Carousel_Maconnerie .carousel-inner .item-1 {
-    background-image: url(images/maconnerie/carousel/1.jpg);
-}
+#Carousel_Maconnerie .carousel-inner .item-1 { background-image: url(images/maconnerie/carousel/1.jpg); }
+#Carousel_Maconnerie .carousel-inner .item-2 { background-image: url(images/maconnerie/carousel/2.jpg); }
+#Carousel_Maconnerie .carousel-inner .item-3 { background-image: url(images/maconnerie/carousel/3.jpg); }
+#Carousel_Maconnerie .carousel-inner .item-4 { background-image: url(images/maconnerie/carousel/4.jpg); }
 
-#Carousel_Maconnerie .carousel-inner .item-2 {
-    background-image: url(images/maconnerie/carousel/2.jpg);
-}
+#Carousel_Facade .carousel-inner .item-1 { background-image: url(images/facade/carousel/1.jpg); }
+#Carousel_Facade .carousel-inner .item-2 { background-image: url(images/facade/carousel/2.jpg); }
+#Carousel_Facade .carousel-inner .item-3 { background-image: url(images/facade/carousel/3.jpg); }
+#Carousel_Facade .carousel-inner .item-4 { background-image: url(images/facade/carousel/4.jpg); }
 
-#Carousel_Maconnerie .carousel-inner .item-3 {
-    background-image: url(images/maconnerie/carousel/3.jpg);
-}
+#Carousel_Charpente .carousel-inner .item-1 { background-image: url(images/charpente_couverture/carousel/1.jpg); }
+#Carousel_Charpente .carousel-inner .item-2 { background-image: url(images/charpente_couverture/carousel/2.jpg); }
+#Carousel_Charpente .carousel-inner .item-3 { background-image: url(images/charpente_couverture/carousel/3.jpg); }
+#Carousel_Charpente .carousel-inner .item-4 { background-image: url(images/charpente_couverture/carousel/4.jpg); }
 
-#Carousel_Maconnerie .carousel-inner .item-4 {
-    background-image: url(images/maconnerie/carousel/4.jpg);
-}
+#Carousel_Maisons .carousel-inner .item-1 { background-image: url(images/maisons/carousel/1.jpg); }
+#Carousel_Maisons .carousel-inner .item-2 { background-image: url(images/maisons/carousel/2.jpg); }
+#Carousel_Maisons .carousel-inner .item-3 { background-image: url(images/maisons/carousel/3.jpg); }
+#Carousel_Maisons .carousel-inner .item-4 { background-image: url(images/maisons/carousel/4.jpg); }
 
 
       

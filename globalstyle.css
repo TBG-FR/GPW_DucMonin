@@ -25,17 +25,18 @@ body { /* TEMP REMOVE */
 /* ----- Polices Ajoutées ----- */
 @font-face {
     font-family: 'Champagne';
-    src: url('Champagne.ttf') format('truetype');
+    src: url('fonts/Champagne & Limousines.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'ChampagneBold';
-    src: url('ChampagneBold.ttf') format('truetype');
+    src: url('fonts/Champagne & Limousines Bold.ttf') format('truetype');
 }
 
 /* ----- ----- Header (Haut de Page) ----- ----- */
 
 header {
+    font-family: 'ChampagneBold','Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
     margin-left: 2.5%;
     margin-right: 2.5%;
     margin-top: 2.5%;
@@ -59,6 +60,7 @@ header {
     /*background-color: brown;*/
 
 }
+
 #header_head .lamd3  { /* TEMP REMOVE */
 
     /*background-color: skyblue;*/
@@ -147,7 +149,7 @@ header {
 
 #content {
     width: 95%;
-    font-family: 'Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
+    font-family: /*'ChampagneBold',*/'Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
 }
 
 /* ----- ----- Footer (Bas de Page)  ----- ----- */

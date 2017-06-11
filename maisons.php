@@ -10,6 +10,9 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="globalstyle.css">
         <link rel="stylesheet" href="style.css">
+        <!-- Javascript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 
     </head>
 
@@ -31,7 +34,7 @@
                 <div class="description">
                     <p> 
                         <em>Ducrozet-Moninot</em> construit des maisons individuelles dans la région de Bourg-en-Bresse depuis plus de 16 ans. Nous vous mettons en relation avec des <strong>architectes ou maîtres d'ouvrage locaux</strong> pour l'élaboration des plans, le permis de construire et la conception de votre villa.<br /><br />
-                        Notre <strong>réseau d'entreprises locales</strong> dans les autres corps de métiers (électrictions, plombiers, menuisiers, carreleurs, plâtriers-peintres, …) est une réelle <strong>garantie de qualité</strong> pour la réalisation de votre construction, car ce sont des <strong>entreprises connues et réputées</strong>, et de vrais artisans locaux avec qui nous travaillons régulièrement.
+                        Notre <strong>réseau d'entreprises locales</strong> dans les autres corps de métiers (électriciens, plombiers, menuisiers, carreleurs, plâtriers-peintres, …) est une réelle <strong>garantie de qualité</strong> pour la réalisation de votre construction, car ce sont des <strong>entreprises connues et réputées</strong>, et de vrais artisans locaux avec qui nous travaillons régulièrement.
                     </p>
                     <div>
                        <!-- <h3>Travaux sur Maisons Individuelles :</h3> -->
@@ -45,13 +48,73 @@
                     </div>
                         
                     <p class="conclusion">                        
-                        Confier la réalisation de votre maison à notre entreprise, c'est vous assurer une prestation de qualité !
+                        Confier la réalisation de votre maison à notre entreprise, c'est vous assurer des artisans à l'écoute et une prestation de qualité !
                     </p>
                     
                 </div>
-                
-                <div>
-                CAROUSEL OR THUMBNAILS
+
+                <!-- Carousel (Images qui défilent) -->
+                <div class="Carousel_container">
+                    <div id="Carousel_Maisons" class="carousel slide" data-ride="carousel">
+                        
+                        <!-- Boutons de Navigation -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#Carousel_Maisons" data-slide-to="0" class="active"></li>
+                            <li data-target="#Carousel_Maisons" data-slide-to="1"></li>
+                            <li data-target="#Carousel_Maisons" data-slide-to="2"></li>
+                            <li data-target="#Carousel_Maisons" data-slide-to="3"></li>
+                        </ol>
+
+                        <!-- Div qui contient/recadre les Slides -->
+                        <div class="carousel-inner">
+                            
+                            <!-- Slide #1 (Actif) -->
+                            <div class="item active item-1">
+                                <!-- Image de la Slide -->
+                                <div class="carousel-caption">
+                                    <!-- Bouton sur la Slide -->
+                                    <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
+                                </div>
+                            </div>                            
+                            
+                            <!-- Slide #2 -->
+                            <div class="item item-2">
+                                <!-- Image de la Slide -->
+                                <div class="carousel-caption">
+                                    <!-- Bouton sur la Slide -->
+                                    <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
+                                </div>
+                            </div>
+                            
+                            <!-- Slide #3 -->
+                            <div class="item item-3">
+                                <!-- Image de la Slide -->
+                                <div class="carousel-caption">
+                                    <!-- Bouton sur la Slide -->
+                                    <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
+                                </div>
+                            </div>
+
+                            <!-- Slide #3 -->
+                            <div class="item item-4">
+                                <!-- Image de la Slide -->
+                                <div class="carousel-caption">
+                                    <!-- Bouton sur la Slide -->
+                                    <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Boutons "Suivant" & "Précédent" -->
+                        <a class="left carousel-control" href="#Carousel_Maisons" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Précédent</span>
+                        </a>
+                        <a class="right carousel-control" href="#Carousel_Maisons" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Suivant</span>
+                        </a>
+                    </div>
                 </div>
 
             </section>
