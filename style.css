@@ -1,0 +1,345 @@
+/* ----- ----- ----- ----- RAPPELS & TIPS ----- ----- ----- ----- */
+/*
+
+Tailles :
+1em = Taille de la police
+1vw =1/100 de la largeur de la fenêtre)
+-> Utiliser 'calc(2em + 5vw)' (par exemple) pour combiner et obtenir une taille minimum + 'responsive' !
+
+*/
+
+/* ----- ----- ----- ----- [CSS "Spécifique" : Éléments qui peuvent changer/évoluer] ----- ----- ----- ----- */
+
+/* ----- -----  Main - Content (Contenu spécifique de la page) ----- ----- */
+
+#content {
+    width: 70%;
+    margin-left: 2.5%;
+    /*margin-right: 2.5%;*/
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: rgba(122 ,181 ,160 ,0.9); /* TEMP REMOVE */
+    float: left;
+}
+
+/* ----- -----  Main - Content [Page Gallerie] ----- ----- */
+
+/*
+.gallery {
+    min-width: 150px;
+    margin: 1%;
+    //border: 1px solid #ccc;
+    float: left;
+    width: 22%;
+    height: 16%;
+    background-color: red;
+}
+
+div.gallery:hover {
+FILTRE GRIS + Message "Afficher"
+}
+
+.gallery img {
+    width: 100%;
+}
+*/
+
+#gallery_buttons {
+    text-align: center;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+#gallery_buttons .btn {
+    font-size:calc(1em + 0.5vw);
+}
+  
+.gallery {
+      min-width: 150px;
+      margin: 1%;
+      min-width: 75px;
+      min-height: 50px;
+      margin: 1.44%;
+      /*border: 1px solid #ccc;*/
+      float: left;
+      width: 22%;
+      height: 16%;
+      background-color: red;
+}
+      
+.gallery img {
+    width: 100%;
+    width: 220px;
+    height: 150px;
+    page-break-inside: avoid;
+}
+      
+/* ----- -----  Main - Content [Pages Type] ----- ----- */
+
+#content h1 {
+    
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    font-size:calc(2em + 1.5vw);
+    
+}
+
+.description {
+    
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-size:calc(1em + 0.5vw); 
+    
+}
+
+.desc_list {
+    
+    margin-top: 5%;
+}
+
+.description li {
+    
+    margin-top: 1%;
+}
+
+.conclusion {
+    text-align: center;
+    margin-bottom: 2.5%;
+    font-size:calc(1em + 0.5vw);
+}
+
+.conclusion:before {
+    content: " ";
+    border: 1px solid black;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 50%;
+}
+
+.conclusion:after {
+    content: " ";
+    border: 1px solid black;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 50%;
+}
+
+/* ----- Carousel----- */
+
+.Carousel_container {
+    background-color: chartreuse; /* TEMP REMOVE */
+    border: 0.25vw solid grey;
+    border-radius: 0.25vw;
+}
+
+.carousel-inner .item {
+    height: 30vw;
+    vertical-align: center;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*font-size:calc(1em + 0.5vw);*/   /* USELESS ? */
+}
+
+.Carousel_container {
+    max-width: 1024px; /* Ici, mettre la largeur des images (prendre des images de même largeur ?) pour éviter des problèmes lors du redimensionnement */
+    margin: auto;
+    margin-bottom: 2.5%;
+}
+
+/*.carousel-inner .item img {
+    vertical-align: middle;
+    content: "BEHUFHUIHD";
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+    margin-bottom: 60px;
+}*/
+
+.carousel-caption a {
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+    text-decoration: none;
+    font-size:calc(1em + 0.2vw);
+    font-weight: bold;
+    
+}
+
+.carousel-caption .btn-default {
+    margin-bottom: 2.5%;
+    
+}
+
+/*.Carousel_container:after {
+    text-align: center;
+    margin-bottom: 2.5%;
+    font-size:calc(1em + 0.5vw);
+    content: "tout voir"
+}*/
+
+/* ----- Carousel : Maconnerie ----- */
+#Carousel_Maconnerie .carousel-inner .item-1 { background-image: url(images/maconnerie/carousel/1.jpg); }
+#Carousel_Maconnerie .carousel-inner .item-2 { background-image: url(images/maconnerie/carousel/2.jpg); }
+#Carousel_Maconnerie .carousel-inner .item-3 { background-image: url(images/maconnerie/carousel/3.jpg); }
+#Carousel_Maconnerie .carousel-inner .item-4 { background-image: url(images/maconnerie/carousel/4.jpg); }
+
+#Carousel_Facade .carousel-inner .item-1 { background-image: url(images/facade/carousel/1.jpg); }
+#Carousel_Facade .carousel-inner .item-2 { background-image: url(images/facade/carousel/2.jpg); }
+#Carousel_Facade .carousel-inner .item-3 { background-image: url(images/facade/carousel/3.jpg); }
+#Carousel_Facade .carousel-inner .item-4 { background-image: url(images/facade/carousel/4.jpg); }
+
+#Carousel_Charpente .carousel-inner .item-1 { background-image: url(images/charpente_couverture/carousel/1.jpg); }
+#Carousel_Charpente .carousel-inner .item-2 { background-image: url(images/charpente_couverture/carousel/2.jpg); }
+#Carousel_Charpente .carousel-inner .item-3 { background-image: url(images/charpente_couverture/carousel/3.jpg); }
+#Carousel_Charpente .carousel-inner .item-4 { background-image: url(images/charpente_couverture/carousel/4.jpg); }
+
+#Carousel_Maisons .carousel-inner .item-1 { background-image: url(images/maisons/carousel/1.jpg); }
+#Carousel_Maisons .carousel-inner .item-2 { background-image: url(images/maisons/carousel/2.jpg); }
+#Carousel_Maisons .carousel-inner .item-3 { background-image: url(images/maisons/carousel/3.jpg); }
+#Carousel_Maisons .carousel-inner .item-4 { background-image: url(images/maisons/carousel/4.jpg); }
+
+
+      
+/* ----- -----  Main - Content [Page Contact] ----- ----- */
+
+#contact h2{
+    
+    text-align: center;
+    
+}
+
+#contact {
+    display: inline-block;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+#contact_informations {
+    float: left;
+    width: 35%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.c_info_element {
+    font-size:calc(1em + 0.5vw);    
+}
+
+.c_info_element .glyphicon-earphone {
+    font-size:calc(1em + 0.5vw);
+}
+
+#contact_formulaire {
+    float: right;
+    width: 50%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+/* ----- Formulaire ----- */
+
+/* Add a background color and some padding around the form */
+#contact_formulaire {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* ----- -----  Main - Sidebar(Menu de droite) ----- ----- */
+
+#sidebar {
+    width: 20%;
+    /*margin-left: 2.5%;*/
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: cyan; /* TEMP REMOVE */
+    float: right;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgba(122 ,181 ,160 ,0.9);
+}
+
+#sidebar .btn {
+    font-size:calc(0.8em + 0.5vw);
+}
+
+#returnbutton {
+    display: none;
+}
+
+#nosidebar {
+    display: none;
+}
+
+/* ----- ----- ----- ----- CSS "@media" (Responsive) ----- ----- ----- ----- */
+
+@media all and (max-width:700px)  { /* Sur tous les medias, si la largeur d'affichage est plus petite que 600px */
+    
+    #sidebar {
+        display: none;      /* Cacher la Sidebar */
+    }
+    
+    #nosidebar {
+        display: inline;      /* Afficher le message NoSidebar */
+        text-align: center;
+        /*background-color: red;*/
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+    
+    #nosidebar p {        
+        font-style: italic;
+    }
+    
+    #content {
+        width: 95%;      /* Afficher le "Content" sur toute la page */
+        float:none;
+    }
+}
+
+
