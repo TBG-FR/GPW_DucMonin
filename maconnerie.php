@@ -32,8 +32,10 @@
 
                 <div class="description">
                     <p>                        
-                        <em>Ducrozet-Moninot</em> met son expérience et ses compétences à votre service pour concrétiser vos projets de <strong>construction</strong> ou de <strong>rénovation</strong> divers et variés.<br /><br />
-                        Un large éventail de prestations est réalisé par nos artisans dans divers domaines.                        
+                        <em>Ducrozet-Moninot</em> met son expérience et ses compétences à votre service pour concrétiser vos projets de <strong>construction</strong> ou de <strong>rénovation</strong> divers et variés.
+                        <br /><br />
+                        Un large éventail de prestations est réalisé par nos artisans dans divers domaines.
+                        <br />
                     </p>
                     <div>
                         <!-- <h3>Travaux de Maçonnerie :</h3> -->

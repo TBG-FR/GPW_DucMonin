@@ -70,6 +70,7 @@ FILTRE GRIS + Message "Afficher"
     
     margin-left: 2.5%;
     margin-bottom: 2.5%;
+    font-size:calc(2em + 1.5vw);
     
 }
 
@@ -77,18 +78,27 @@ FILTRE GRIS + Message "Afficher"
     
     margin-left: 2.5%;
     margin-right: 2.5%;
-    font-size:calc(1em + 0.25vw); 
+    font-size:calc(1em + 0.5vw); 
     
 }
 
-.description ul {
+/*
+.description strong {
     
-    margin-top: 2.5%
+    font-weight: bolder;
+    color: chartreuse;
+    text-decoration: underline;
+    text-transform: full-width;
+}*/
+
+.desc_list {
+    
+    margin-top: 5%;
 }
 
 .description li {
     
-    margin-top: 1%
+    margin-top: 1%;
 }
 
 .conclusion {

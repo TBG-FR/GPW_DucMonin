@@ -33,10 +33,11 @@
 
                 <div class="description">
                     <p>                        
-                        La <em>SARL Ducrozet-Moninot</em> réalise tous les travaux de ravalement de façade qui permettent la remise en état des murs extérieurs de votre bâtiment.<br /><br />
-                        Nous ravalons votre façade avec des enduits spéciaux <strong>pour chaque type de support</strong> : pisé, pierre ou matériaux récents (moellons, briques, blocs de béton cellulaire).          
+                        L'entreprise <em>Ducrozet-Moninot</em> réalise tous les travaux de ravalement de façade qui permettent la remise en état des murs extérieurs de votre bâtiment.
+                        <br /><br />
+                        Nous ravalons votre façade avec des enduits spéciaux <strong>pour chaque type de support</strong> : pisé, pierre ou matériaux récents (moellons, briques, blocs de béton cellulaire).
                     </p>
-                    <div>
+                    <div class="desc_list">
                        <!-- <h3>Travaux de Ravalement de Façade :</h3> -->
                         <ul>
                             <li>Ravalement de façade sur support ancien (pisé, pierre...).</li>

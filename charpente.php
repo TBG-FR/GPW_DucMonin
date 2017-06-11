@@ -33,8 +33,10 @@
 
                 <div class="description">
                     <p>                        
-                        Les charpentiers de chez <em>Ducrozet-Moninot</em> assurent la pose de charpentes et de couvertures sur bâtiment neuf ou ancien depuis 15 ans maintenant dans la région de Bourg en Bresse.<br /><br />
-                        Que ce soit en neuf ou en rénovation, nous vous proposons des <strong>solutions adaptées</strong> à vos exigences, dans le <strong>respect de votre budget</strong>.          
+                        Les charpentiers de chez <em>Ducrozet-Moninot</em> assurent la pose de charpentes et de couvertures sur bâtiment neuf ou ancien depuis 15 ans maintenant dans la région de Bourg en Bresse.
+                        <br /><br />
+                        Que ce soit en neuf ou en rénovation, nous vous proposons des <strong>solutions adaptées</strong> à vos exigences, dans le <strong>respect de votre budget</strong>.
+                        <br />
                     </p>
                     <div>
                        <!-- <h3>Travaux de Charpente - Couverture :</h3> -->
