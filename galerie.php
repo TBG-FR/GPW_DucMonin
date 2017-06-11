@@ -2,6 +2,40 @@
 <html>    
     <head>
         <meta charset="utf-8">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">     </script>
+        
+        <SCRIPT language="javascript">
+        $(document).ready(function(){
+
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+        
+        if(value == "all")
+        {
+            //$('.filter').removeClass('hidden');
+            $('.filter').show('1000');
+        }
+        else
+        {
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+            
+        }
+    });
+    
+    if ($(".filter-button").removeClass("active")) {
+$(this).removeClass("active");
+}
+$(this).addClass("active");
+
+});
+        
+        
+        </SCRIPT>
+        
         
         <title>TITRE</title>
                 
@@ -182,8 +216,8 @@
                 </div>
                 
                 <div class="gallery filter maison">
-                    <a target="_blank" href="maison05bis.jpg">
-                        <img src="maison05bis.jpg">
+                    <a target="_blank" href="maison05.png">
+                        <img src="maison05.png">
                     </a>
                 </div>
                 
