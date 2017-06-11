@@ -1,0 +1,289 @@
+
+/* ----- ----- ----- ----- [RAPPELS & TIPS] ----- ----- ----- ----- */
+/*
+
+Tailles :
+1em = Taille de la police
+1vw =1/100 de la largeur de la fenêtre)
+-> Utiliser 'calc(2em + 5vw)' (par exemple) pour combiner et obtenir une taille minimum + 'responsive' !
+
+*/
+
+/* ----- ----- ----- ----- [CSS - Éléments "Globaux" du Site] ----- ----- ----- ----- */
+
+/* ----- ----- Général (Page) ----- ----- */
+
+html { /* TEMP REMOVE */
+    /*background-color: brown;*/
+}
+
+body { /* TEMP REMOVE */
+    background-color: darkorange;
+    
+}
+
+/* ----- Polices Ajoutées & Mise en Forme ----- */
+
+@font-face {
+    font-family: 'Archive';
+    src: url('fonts/Archive.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Champagne';
+    src: url('fonts/Champagne & Limousines.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Champagne';   /* Version en italique */
+    src: url('fonts/Champagne & Limousines Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ChampagneBold';
+    src: url('fonts/Champagne & Limousines Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ChampagneBold';   /* Version en italique */
+    src: url('fonts/Champagne & Limousines Bold Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Faux gras, pour pouvoir passer ChampagneBold en Gras */
+strong {   
+    text-shadow: 1px 0px 1px currentColor; /* 1px 0px 0px pour enlever le "flou" */
+}
+
+/* ----- ----- Header (Haut de Page) ----- ----- */
+
+header {
+    font-family: 'Archive','Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    background-color: cyan; /* TEMP REMOVE */
+}
+
+#header_head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around; /*justify-content: center;*/
+    align-items: center;
+    text-align: center;
+    margin: auto; /* USELESS ? */
+    width: 100%; /* USELESS ? */
+    background-color: rgba(72,222,125,1); /* TEMP REMOVE */
+}
+
+#header_head .lamd4  { /* TEMP REMOVE */
+
+    /*background-color: brown;*/
+
+}
+
+#header_head .lamd3  { /* TEMP REMOVE */
+
+    /*background-color: skyblue;*/
+
+}
+
+#logo  {    
+    width: 12vw;
+    min-width: 150px;
+}
+
+#header_contact {   
+    text-align: center;
+    font-size:calc(1em + 1vw);    
+    white-space: nowrap;
+
+}
+
+#header_buttons { 
+    margin: auto; /* USELESS ? */
+
+}
+
+#header_buttons .glyphicon-envelope,#header_buttons .glyphicon-earphone,#header_buttons .glyphicon-map-marker {
+
+    font-size:calc(2em + 2vw);
+    margin-left: 1vw;
+    margin-right: 1vw;
+    flex-flow: column wrap;
+
+}
+
+/* ----- Menu de Navigation (navbar) ----- */
+
+.menu-bar {
+    position: absolute;
+    top: 20px;    
+    left: 50%;
+    height: 14px;
+    margin-left: -10px;
+}
+
+.menu {
+    display: block !important;
+    width: 100%;
+    padding: 15px 10px 15px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    font-size: calc(0.75em + 0.75vw); 
+    /*
+    font-family: 'Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre /
+    font-size:calc(1em  0.5vw); /* Taille du Texte : 1  0.5 de l'écran /
+    text-decoration: none; /* Retire le format "lien" /
+    height:calc(2em  0.5vw);
+    width:40%;*/ 
+}
+
+.menu ul {
+    margin-bottom: 0;
+}
+
+.menu a {
+    color: grey; 
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    background-image:radial-gradient(white 100%, black 100%);
+    color: black;
+    opacity: 0.8; 
+}
+
+/* ----- -----  Main (Corps de Page) ----- ----- */
+
+#main {
+    width: 95%;
+    display: inline-block;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+    /*margin-top: 2.5%;*/
+    background-color: rgba(122 ,181 ,160 ,0.3);  /*TEMP REMOVE */
+    font-family: 'ChampagneBold','Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
+}
+
+/* ----- ----- Footer (Bas de Page)  ----- ----- */
+
+footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    background-color: rgba(171,105,77,1);
+    text-align: center;
+    color: white;
+}
+
+.legal {
+}
+
+/* ----- ----- ----- ----- CSS "@media" (Responsive) ----- ----- ----- ----- */
+
+@media all and (max-width:500px) { /* Sur tous les médias, si la largeur d'affichage est plus petite que 500px */   
+    #header_head {
+        flex-flow: column wrap;     /* Header_Head : Afficher les éléments en colonne, les uns sous les autres */
+    }
+}
+    
+#admin{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 1.5%;
+    padding-right: 1.5%;
+    z-index: 3;
+    text-align: right;
+    font-size:calc(0.5em + 0.5vw);
+    background-color: grey;
+    
+}
+
+#accadmin{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    z-index: 3;
+    text-align: center;
+    font-size:calc(0.5em + 0.5vw);
+    
+}
+
+#boutonret{
+    margin-top: 2.5%;
+}
+    
+#commentaire {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 0.5%;
+        padding-left: 0.5%;
+        text-align: left;
+        font-size:calc(0.6em + 1vw);
+    }
+
+#date {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 0.5%;
+        padding-left: 0.5%;
+        text-align: right;
+        font-size:calc(0.2em + 1vw);
+    }
+
+#boutonenvoi {
+    margin-top: 2%;
+}
+
+#commentaireside {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 0.5%;
+        padding-left: 0.5%;
+        text-align: left;
+        font-size:calc(0.2em + 1vw);
+    }
+
+#separation {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right :5%;
+    background-color: rgba(255 ,255 ,255 ,0.2);
+    
+    
+}
+
+#entre {
+    border-bottom: 1px solid black;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#dateside {
+    text-align: right;
+    font-size: calc(0.1em + 0.7vw);
+    color: gray;
+}
+
+#avis_show {
+    margin-top: 15%;
+    
+}

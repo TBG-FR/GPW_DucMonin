@@ -1,0 +1,130 @@
+
+/* ----- ----- ----- ----- RAPPELS & TIPS ----- ----- ----- ----- */
+/*
+
+Tailles :
+1em = Taille de la police
+1vw =1/100 de la largeur de la fenêtre)
+-> Utiliser 'calc(2em + 5vw)' (par exemple) pour combiner et obtenir une taille minimum + 'responsive' !
+
+*/
+
+/* ----- ----- ----- ----- [CSS "Spécifique" : Éléments qui peuvent changer/évoluer] ----- ----- ----- ----- */
+
+/* ----- -----  Main - Content (Contenu spécifique de la page) ----- ----- */
+
+#content {
+    max-width: 70%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: cyan; /* TEMP REMOVE */
+    float: left;
+}
+
+/* ----- -----  Main - Content [Page Gallerie] ----- ----- */
+
+.gallery {
+    min-width: 150px;
+    margin: 1%;
+    /*border: 1px solid #ccc;*/
+    float: left;
+    width: 22%;
+    height: 16%;
+    background-color: red;
+}
+
+/*div.gallery:hover {
+FILTRE GRIS + Message "Afficher"
+}*/
+
+.gallery img {
+    width: 100%;
+}
+
+
+/* */
+
+#content h1 {
+    
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    
+}
+
+.description {
+    
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-size:calc(1em + 0.25vw); 
+    
+}
+
+.description ul {
+    
+    margin-top: 2.5%
+    
+}
+
+.conclusion {
+    text-align: center;
+    margin-bottom: 2.5%;
+    font-size:calc(1em + 0.5vw);
+}
+
+.conclusion:before {
+    content: " ";
+    border: 1px solid black;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 50%;
+}
+
+/* ----- Main - Sidebar(Menu de droite) ----- */
+
+#sidebar {
+    max-width: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: cyan;
+    float: right;
+    text-align: center;
+}
+
+#returnbutton {
+    display: none;
+}
+
+#nosidebar {
+    display: none;
+}
+
+/* ----- ----- ----- ----- CSS "@media" (Responsive) ----- ----- ----- ----- */
+
+@media all and (max-width:700px)  { /* Sur tous les medias, si la largeur d'affichage est plus petite que 600px */
+    
+    #sidebar {
+        display: none;      /* Cacher la Sidebar */
+    }
+    
+    #nosidebar {
+        display: inline;      /* Afficher le message NoSidebar */
+        text-align: center;
+        background-color: red;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+    
+    #content {
+        max-width: 100%;      /* Afficher le "Content" sur toute la page */
+        float:none;
+    }
+}
