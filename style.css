@@ -13,7 +13,7 @@ Tailles :
 /* ----- -----  Main - Content (Contenu spécifique de la page) ----- ----- */
 
 #content {
-    width: 70%;
+    width: 72.5%;
     margin-left: 2.5%;
     /*margin-right: 2.5%;*/
     margin-top: 2.5%;
@@ -114,6 +114,7 @@ width: 100%;
 #content h1 {
 
     margin-left: 2.5%;
+    margin-right: 0%;
     margin-bottom: 2.5%;
     font-size:calc(2em + 1.5vw);
 
@@ -122,7 +123,7 @@ width: 100%;
 .description {
 
     margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin-right: 0%;
     font-size:calc(1em + 0.5vw); 
 
 }
@@ -246,36 +247,39 @@ content: "tout voir"
 
 /* ----- -----  Main - Content [Page Contact] ----- ----- */
 
-#contact h2{
-
+#contact h1{
     text-align: center;
-
+    margin-bottom: 5%;
 }
 
 #contact {
     display: inline-block;
-    margin-top: 2.5%;
     margin-bottom: 2.5%;
 }
 
 #contact_informations {
+    margin-top: 5%;
+    text-align: center;
     float: left;
     width: 35%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    white-space: nowrap;
+    white-space: normal;
 }
 
 .c_info_element {
-    font-size:calc(1em + 0.5vw);    
+    font-size:calc(1em + 0.5vw);
+    margin-bottom: 20%;
 }
 
-.c_info_element .glyphicon-earphone {
-    font-size:calc(1em + 0.5vw);
+.c_info_element .glyphicon-earphone, .c_info_element .glyphicon-map-marker, .c_info_element .glyphicon-phone, .c_info_element .glyphicon-envelope {
+    font-size:calc(1.5em + 1vw);
 }
+
+/* ----- Formulaire ----- */
 
 #contact_formulaire {
     float: right;
@@ -284,13 +288,23 @@ content: "tout voir"
     margin-right: 2.5%;
 }
 
-/* ----- Formulaire ----- */
-
 /* Add a background color and some padding around the form */
 #contact_formulaire {
+    font-size:calc(1em + 0.5vw);
     border-radius: 5px;
-    background-color: #f2f2f2;
+    /*background-color: #f2f2f2;*/
+    color: #FFF;
+    text-shadow: 2px 2px 1px #000;
+    background-color: rgba(20,20,20,0.5);
     padding: 20px;
+}
+
+#contact_formulaire #name, #contact_formulaire #enterprise, #contact_formulaire #sujet, #contact_formulaire #text {
+    margin-bottom: 5%;
+}
+
+#contact_formulaire select {
+    color: #000;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -337,7 +351,7 @@ input[type=submit]:hover {
 }
 
 #sidebar .btn {
-    font-size:calc(0.8em + 0.5vw);
+    font-size:calc(1em + 0.5vw);
 }
 
 #returnbutton {
@@ -350,7 +364,7 @@ input[type=submit]:hover {
 
 /* ----- ----- ----- ----- CSS "@media" (Responsive) ----- ----- ----- ----- */
 
-@media all and (max-width:700px)  { /* Sur tous les medias, si la largeur d'affichage est plus petite que 600px */
+@media all and (max-width:750px)  { /* Sur tous les medias, si la largeur d'affichage est plus petite que 600px */
 
     #sidebar {
         display: none;      /* Cacher la Sidebar */

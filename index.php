@@ -37,7 +37,7 @@
                             <area href="#" shape="rect" coords="0,30,100,130" title="Maison" tabindex="0"/>
                         </map>
                         
-                        <img src="maison02.PNG" usemap="#map1" alt="TODO" title="TODO">
+                        <img src="images/accueil.png" usemap="#map1" alt="TODO" title="TODO">
                         
                     </div>
                 </div>
