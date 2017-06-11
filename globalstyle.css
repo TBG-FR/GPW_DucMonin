@@ -1,17 +1,6 @@
+/* ----- ----- ----- ----- [ CSS "Global" : Éléments Globaux ] ----- ----- ----- ----- */
 
-/* ----- ----- ----- ----- [RAPPELS & TIPS] ----- ----- ----- ----- */
-/*
-
-Tailles :
-1em = Taille de la police
-1vw =1/100 de la largeur de la fenêtre)
--> Utiliser 'calc(2em + 5vw)' (par exemple) pour combiner et obtenir une taille minimum + 'responsive' !
-
-*/
-
-/* ----- ----- ----- ----- [CSS - Éléments "Globaux" du Site] ----- ----- ----- ----- */
-
-/* ----- ----- Général (Page) ----- ----- */
+/* ----- -----  Général (Page) ----- ----- */
 
 html { /* TEMP REMOVE */
     /*background-color: brown;*/
@@ -19,7 +8,7 @@ html { /* TEMP REMOVE */
 
 body { /* TEMP REMOVE */
     background-color: darkorange;
-    
+
 }
 
 /* ----- Polices Ajoutées & Mise en Forme ----- */
@@ -58,9 +47,7 @@ body { /* TEMP REMOVE */
 }
 
 /* Faux gras, pour pouvoir passer ChampagneBold en Gras */
-strong {   
-    text-shadow: 1px 0px 1px currentColor; /* 1px 0px 0px pour enlever le "flou" */
-}
+strong { text-shadow: 1px 0px 1px currentColor; /* 1px 0px 0px pour enlever le "flou" */ }
 
 /* ----- ----- Header (Haut de Page) ----- ----- */
 
@@ -199,8 +186,10 @@ footer {
         flex-flow: column wrap;     /* Header_Head : Afficher les éléments en colonne, les uns sous les autres */
     }
 }
-    
-#admin{
+
+/* ----- ----- ----- ----- [ CSS "Backend" : Éléments "admin" & co ] ----- ----- ----- ----- */
+
+#admin {
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 5%;
@@ -211,7 +200,6 @@ footer {
     text-align: right;
     font-size:calc(0.5em + 0.5vw);
     background-color: grey;
-    
 }
 
 #accadmin{
@@ -221,30 +209,29 @@ footer {
     z-index: 3;
     text-align: center;
     font-size:calc(0.5em + 0.5vw);
-    
 }
 
 #boutonret{
     margin-top: 2.5%;
 }
-    
+
 #commentaire {
-        margin-left: 2%;
-        margin-right: 2%;
-        margin-bottom: 0.5%;
-        padding-left: 0.5%;
-        text-align: left;
-        font-size:calc(0.6em + 1vw);
-    }
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0.5%;
+    padding-left: 0.5%;
+    text-align: left;
+    font-size:calc(0.6em + 1vw);
+}
 
 #date {
-        margin-left: 2%;
-        margin-right: 2%;
-        margin-bottom: 0.5%;
-        padding-left: 0.5%;
-        text-align: right;
-        font-size:calc(0.2em + 1vw);
-    }
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0.5%;
+    padding-left: 0.5%;
+    text-align: right;
+    font-size:calc(0.2em + 1vw);
+}
 
 #boutonenvoi {
     margin-top: 2%;
@@ -252,13 +239,13 @@ footer {
 }
 
 #commentaireside {
-        margin-left: 2%;
-        margin-right: 2%;
-        margin-bottom: 0.5%;
-        padding-left: 0.5%;
-        text-align: left;
-        font-size:calc(0.2em + 1vw);
-    }
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0.5%;
+    padding-left: 0.5%;
+    text-align: left;
+    font-size:calc(0.2em + 1vw);
+}
 
 #separation {
     padding-left: 2.5%;
@@ -267,8 +254,8 @@ footer {
     margin-left: 5%;
     margin-right :5%;
     background-color: rgba(255 ,255 ,255 ,0.2);
-    
-    
+
+
 }
 
 #entre {
@@ -286,7 +273,6 @@ footer {
 
 #avis_show {
     margin-top: 15%;
-    
 }
 
 #boutonform{

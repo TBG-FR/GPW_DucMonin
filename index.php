@@ -28,7 +28,7 @@
         <div id="main">
             <div id="accueil">
                 <div class=container-fluid>
-                    <div class="TEMP">
+                    <div class="HOME">
                         
                         <map name="map1">
                             <area href="#" shape="rect" coords="0,152,140,80" title="Maçonnerie" tabindex="0" />
