@@ -13,9 +13,9 @@ Tailles :
 /* ----- -----  Main - Content (Contenu spécifique de la page) ----- ----- */
 
 #content {
-    max-width: 70%;
+    width: 70%;
     margin-left: 2.5%;
-    margin-right: 2.5%;
+    /*margin-right: 2.5%;*/
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     background-color: rgba(122 ,181 ,160 ,0.9); /* TEMP REMOVE */
@@ -278,8 +278,8 @@ input[type=submit]:hover {
 /* ----- -----  Main - Sidebar(Menu de droite) ----- ----- */
 
 #sidebar {
-    max-width: 20%;
-    margin-left: 2.5%;
+    width: 20%;
+    /*margin-left: 2.5%;*/
     margin-right: 2.5%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
@@ -289,6 +289,10 @@ input[type=submit]:hover {
     padding-top: 1%;
     padding-bottom: 1%;
     background-color: rgba(122 ,181 ,160 ,0.9);
+}
+
+#sidebar .btn {
+    font-size:calc(0.8em + 0.5vw);
 }
 
 #returnbutton {
@@ -322,7 +326,7 @@ input[type=submit]:hover {
     }
     
     #content {
-        max-width: 100%;      /* Afficher le "Content" sur toute la page */
+        width: 95%;      /* Afficher le "Content" sur toute la page */
         float:none;
     }
 }

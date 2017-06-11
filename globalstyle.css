@@ -22,7 +22,7 @@ body { /* TEMP REMOVE */
     
 }
 
-/* ----- Polices Ajoutées ----- */
+/* ----- Polices Ajoutées & Mise en Forme ----- */
 
 @font-face {
     font-family: 'Archive';
@@ -57,17 +57,9 @@ body { /* TEMP REMOVE */
     font-style: italic;
 }
 
-@font-face {
-    font-family: 'ChampagneBold';
-    src: url('fonts/Champagne & Limousines Bold.ttf') format('truetype');
-    text-shadow: 1px 0px 0px currentColor; /*1px 0px 1px currentColor;*/
-    font-weight: normal;
-    font-style: bold;
-}
-
-strong {
-    
-    text-shadow: 1px 0px 0px currentColor; /*1px 0px 1px currentColor;*/
+/* Faux gras, pour pouvoir passer ChampagneBold en Gras */
+strong {   
+    text-shadow: 1px 0px 1px currentColor; /* 1px 0px 0px pour enlever le "flou" */
 }
 
 /* ----- ----- Header (Haut de Page) ----- ----- */
@@ -147,6 +139,7 @@ header {
     margin: 0 auto;
     text-align: center;
     background-color: #fff;
+    font-size: calc(0.75em + 0.75vw); 
     /*
     font-family: 'Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre /
     font-size:calc(1em  0.5vw); /* Taille du Texte : 1  0.5 de l'écran /
@@ -182,10 +175,6 @@ header {
     margin-bottom: 2.5%;
     /*margin-top: 2.5%;*/
     background-color: rgba(122 ,181 ,160 ,0.3);  /*TEMP REMOVE */
-}
-
-#content {
-    width: 95%;
     font-family: 'ChampagneBold','Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
 }
 
