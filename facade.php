@@ -116,12 +116,6 @@
                         </a>
                     </div>
                 </div>
-                
-                <div id="test1">AZERTYazerty</div>
-                <div id="test2">AZERTYazerty</div>
-                <div id="test3">AZERTYazerty</div>
-                <div id="test4">AZERTYazerty</div>
-                <div><strong>AZERTYazerty</strong></div>
 
             </section>
 

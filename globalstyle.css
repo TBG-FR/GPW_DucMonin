@@ -23,20 +23,29 @@ body { /* TEMP REMOVE */
 }
 
 /* ----- Polices Ajoutées ----- */
+
+@font-face {
+    font-family: 'Archive';
+    src: url('fonts/Archive.otf') format('truetype');
+}
 @font-face {
     font-family: 'Champagne';
     src: url('fonts/Champagne & Limousines.ttf') format('truetype');
+
+    font-weight:normal;
 }
 
 @font-face {
     font-family: 'ChampagneBold';
     src: url('fonts/Champagne & Limousines Bold.ttf') format('truetype');
+
+    font-weight:bold;
 }
 
 /* ----- ----- Header (Haut de Page) ----- ----- */
 
 header {
-    font-family: 'ChampagneBold','Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
+    font-family: 'Archive','Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
     margin-left: 2.5%;
     margin-right: 2.5%;
     margin-top: 2.5%;
