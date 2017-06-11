@@ -22,17 +22,46 @@ Tailles :
     float: left;
 }
 
+/* ----- -----  Main - Accueil ----- ----- */
+
+/*
+
+.TEMP img{
+    display: block;
+    padding-left:2%;
+    max-width:100%;
+    height: auto;
+    background-image:blue;
+}
+
+TEMP > area{
+    transform-origin:center 0;
+}
+
+body {display:table-cell;/*vertical-align:none;}
+map {position:relative;display:block;height:100%;width:100%;top:0;left:0;line-height:100%;}
+area {display:inline-block;width:10%;position:relative;z-index:1;line-height:1em;
+    background:rgba(0,0,0,0.25);color:white;line-height:40px;border-radius:3em;}
+area:after {content:attr(title);}
+area[title]:hover {z-index:2;background:rgba(0,0,0,0);box-shadow:0 0 10px 1px white, 0 0 0 0 rgba(100,50,0,0.5);}
+area[title="Maçonnerie"] {position:absolute;left:2%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
+area[title="Charpente"] {position:absolute;left:26.5%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
+area[title="Façade"] {position:absolute;left:51%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
+area[title="Maison"] {position:absolute;left:75.5%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
+
+*/
+
 /* ----- -----  Main - Content [Page Gallerie] ----- ----- */
 
 /*
 .gallery {
-    min-width: 150px;
-    margin: 1%;
-    //border: 1px solid #ccc;
-    float: left;
-    width: 22%;
-    height: 16%;
-    background-color: red;
+min-width: 150px;
+margin: 1%;
+//border: 1px solid #ccc;
+float: left;
+width: 22%;
+height: 16%;
+background-color: red;
 }
 
 div.gallery:hover {
@@ -40,7 +69,7 @@ FILTRE GRIS + Message "Afficher"
 }
 
 .gallery img {
-    width: 100%;
+width: 100%;
 }
 */
 
@@ -54,52 +83,52 @@ FILTRE GRIS + Message "Afficher"
 #gallery_buttons .btn {
     font-size:calc(1em + 0.5vw);
 }
-  
+
 .gallery {
-      min-width: 150px;
-      margin: 1%;
-      min-width: 75px;
-      min-height: 50px;
-      margin: 1.44%;
-      /*border: 1px solid #ccc;*/
-      float: left;
-      width: 22%;
-      height: 16%;
-      background-color: red;
+    min-width: 150px;
+    margin: 1%;
+    min-width: 75px;
+    min-height: 50px;
+    margin: 1.44%;
+    /*border: 1px solid #ccc;*/
+    float: left;
+    width: 22%;
+    height: 16%;
+    background-color: red;
 }
-      
+
 .gallery img {
     width: 100%;
     width: 220px;
     height: 150px;
     page-break-inside: avoid;
 }
-      
+
 /* ----- -----  Main - Content [Pages Type] ----- ----- */
 
 #content h1 {
-    
+
     margin-left: 2.5%;
     margin-bottom: 2.5%;
     font-size:calc(2em + 1.5vw);
-    
+
 }
 
 .description {
-    
+
     margin-left: 2.5%;
     margin-right: 2.5%;
     font-size:calc(1em + 0.5vw); 
-    
+
 }
 
 .desc_list {
-    
+
     margin-top: 5%;
 }
 
 .description li {
-    
+
     margin-top: 1%;
 }
 
@@ -155,15 +184,15 @@ FILTRE GRIS + Message "Afficher"
 }
 
 /*.carousel-inner .item img {
-    vertical-align: middle;
-    content: "BEHUFHUIHD";
+vertical-align: middle;
+content: "BEHUFHUIHD";
 }
 
 .carousel,
 .item,
 .active {
-    height: 100%;
-    margin-bottom: 60px;
+height: 100%;
+margin-bottom: 60px;
 }*/
 
 .carousel-caption a {
@@ -172,19 +201,19 @@ FILTRE GRIS + Message "Afficher"
     text-decoration: none;
     font-size:calc(1em + 0.2vw);
     font-weight: bold;
-    
+
 }
 
 .carousel-caption .btn-default {
     margin-bottom: 2.5%;
-    
+
 }
 
 /*.Carousel_container:after {
-    text-align: center;
-    margin-bottom: 2.5%;
-    font-size:calc(1em + 0.5vw);
-    content: "tout voir"
+text-align: center;
+margin-bottom: 2.5%;
+font-size:calc(1em + 0.5vw);
+content: "tout voir"
 }*/
 
 /* ----- Carousel : Maconnerie ----- */
@@ -209,13 +238,13 @@ FILTRE GRIS + Message "Afficher"
 #Carousel_Maisons .carousel-inner .item-4 { background-image: url(images/maisons/carousel/4.jpg); }
 
 
-      
+
 /* ----- -----  Main - Content [Page Contact] ----- ----- */
 
 #contact h2{
-    
+
     text-align: center;
-    
+
 }
 
 #contact {
@@ -317,11 +346,11 @@ input[type=submit]:hover {
 /* ----- ----- ----- ----- CSS "@media" (Responsive) ----- ----- ----- ----- */
 
 @media all and (max-width:700px)  { /* Sur tous les medias, si la largeur d'affichage est plus petite que 600px */
-    
+
     #sidebar {
         display: none;      /* Cacher la Sidebar */
     }
-    
+
     #nosidebar {
         display: inline;      /* Afficher le message NoSidebar */
         text-align: center;
@@ -331,11 +360,11 @@ input[type=submit]:hover {
         margin-top: 2.5%;
         margin-bottom: 2.5%;
     }
-    
+
     #nosidebar p {        
         font-style: italic;
     }
-    
+
     #content {
         width: 95%;      /* Afficher le "Content" sur toute la page */
         float:none;
