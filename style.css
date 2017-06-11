@@ -24,21 +24,22 @@ Tailles :
 
 /* ----- -----  Main - Accueil ----- ----- */
 
-/*
+
 
 .TEMP img{
     display: block;
     padding-left:2%;
     max-width:100%;
     height: auto;
-    background-image:blue;
+    /*background-image:blue;*/
 }
 
 TEMP > area{
     transform-origin:center 0;
 }
 
-body {display:table-cell;/*vertical-align:none;}
+/*body {display:table-cell;/*vertical-align:none;}*/
+#accueil {display:table-cell; vertical-align:center;}
 map {position:relative;display:block;height:100%;width:100%;top:0;left:0;line-height:100%;}
 area {display:inline-block;width:10%;position:relative;z-index:1;line-height:1em;
     background:rgba(0,0,0,0.25);color:white;line-height:40px;border-radius:3em;}
@@ -48,8 +49,6 @@ area[title="Maçonnerie"] {position:absolute;left:2%;top:5%;width:22.5%;height:1
 area[title="Charpente"] {position:absolute;left:26.5%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
 area[title="Façade"] {position:absolute;left:51%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
 area[title="Maison"] {position:absolute;left:75.5%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
-
-*/
 
 /* ----- -----  Main - Content [Page Gallerie] ----- ----- */
 
