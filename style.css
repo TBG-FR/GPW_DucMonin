@@ -66,7 +66,10 @@ area[title="Maison"] {position:absolute;left:77%;top:5%;width:23%;height:100px;l
     min-width: 75px;
     min-height: 50px;
     margin: 4.5%;
+<<<<<<< HEAD
     /*border: 1px solid #ccc;*/
+=======
+>>>>>>> 2d0c4ee5714a0784fc597082182ea7287bf2d01f
     float: left;
 }
 
