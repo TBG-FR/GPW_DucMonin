@@ -50,7 +50,7 @@
                 <br \>
                 </date> 
                 <form action="suppr_news.php" method="post">
-
+                <input type="hidden" name="ID" value="<?php echo($id); ?>" />
                 <input type="submit" name = " <?php echo($id);?> " value="Supprimer" class="btn btn_danger"> 
 
             </form>
