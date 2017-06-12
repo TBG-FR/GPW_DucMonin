@@ -15,9 +15,17 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
 
+        <!-- Scripts Javascript -->
+        <SCRIPT language="javascript">
+    function refreshP() {
+		window.location.reload();
+    }
+        </SCRIPT>
+
     </head>
     
 <body>
+    <a class="btn btn-default" onclick="refreshP()"  role="link-button">Actualiser</a>
     <a class="btn btn-default" href="index.php" role="link-button">Retour à l'accueil</a>
     <?php include("admin.php"); ?>
     <div id="admin">
