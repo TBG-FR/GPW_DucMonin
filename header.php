@@ -15,9 +15,19 @@
 
     <div class="lamd4">
         <div id="header_buttons">
-            <div class="glyphicon glyphicon-envelope" aria-label="Bouton-Icône : Contact"></div>
-            <div class="glyphicon glyphicon-earphone" aria-label="Bouton-Icône : Téléphone"></div>
-            <div class="glyphicon glyphicon-map-marker" aria-label="Bouton-Icône : Localisation"></div>
+            
+            <a href="mailto:contact@ducrozet-moninot.fr">
+                <div class="glyphicon glyphicon-envelope" aria-label="Bouton-Icône : Contact"></div>
+            </a>
+            
+            <a href="tel:0474232761">
+                <div class="glyphicon glyphicon-earphone" aria-label="Bouton-Icône : Téléphone"></div>
+            </a>
+            
+            <a target="_blank" href="https://goo.gl/maps/RBS6nRaXQS32">
+                <div class="glyphicon glyphicon-map-marker" aria-label="Bouton-Icône : Localisation"></div>
+            </a>
+            
         </div>
     </div>
 </div>

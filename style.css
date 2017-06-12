@@ -19,7 +19,7 @@
     /*margin-right: 2.5%;*/
     margin-top: 2.5%;
     margin-bottom: 2.5%;
-    background-color: rgba(122 ,181 ,160 ,0.9); /* TEMP REMOVE */
+    /*background-color: rgba(122 ,181 ,160 ,0.9);*/ /* TEMP REMOVE */
 }
 
 .HOME img{
@@ -30,15 +30,22 @@
     /*background-image:blue;*/
 }
 
+#main {
+    display: block;
+    /*padding-left: 3%;*/
+    background-color: #FFF;
+    
+}
+
 HOME > area{
     transform-origin:center 0;
 }
 
 #accueil {display:table-cell; vertical-align:center;}
-map {position:relative;display:block;height:100%;width:100%;top:0;left:0;line-height:100%;}
-area {display:inline-block;width:10%;position:relative;z-index:1;line-height:1em;background:rgba(0,0,0,0.25);color:white;line-height:40px;border-radius:3em;}
+map {position:relative;display:block;height:100%;width:100%;top:45vw;left:0;line-height:100%;}
+area {display:inline-block;width:10%;position:relative;z-index:1;line-height:15%;background:rgba(0,0,0,0.5);color:white;border-radius:0;font-size:calc(1em + 1vw);}
 area:after {content:attr(title);}
-area[title]:hover {z-index:2;background:rgba(0,0,0,0);box-shadow:0 0 10px 1px white, 0 0 0 0 rgba(100,50,0,0.5);}
+area[title]:hover {z-index:2;background:rgba(0,0,0,0.25);box-shadow:0 0 10px 1px white, 0 0 0 0 rgba(100,50,0,0.5);}
 area[title="Maçonnerie"] {position:absolute;left:2%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
 area[title="Charpente"] {position:absolute;left:26.5%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
 area[title="Façade"] {position:absolute;left:51%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
@@ -300,6 +307,11 @@ input[type=submit]:hover {
 
 @media all and (max-width:750px)  { /* Sur tous les medias, si la largeur d'affichage est plus petite que 600px */
 
+    
+    .HOME map {
+        top:25vw;
+    }
+    
     #sidebar {
         display: none;      /* Cacher la Sidebar */
     }
