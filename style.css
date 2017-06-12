@@ -67,8 +67,7 @@ area[title="Maison"] {position:absolute;left:75.5%;top:5%;width:22.5%;height:100
 .gallery {
     min-width: 75px;
     min-height: 50px;
-    margin: 1.44%;
-    /*border: 1px solid #ccc;*/
+    margin: 4.5%;
     float: left;
 }
 
