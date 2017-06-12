@@ -30,7 +30,7 @@
                 die('Erreur : '.$e->getMessage());
             }
 
-            $req=$bdd->query('SELECT id,commentaire,DATE_FORMAT(date_commentaire,\'%d/%m/%Y\') AS date_commentaire_fr FROM commentaires ORDER BY date_commentaire DESC');?>
+            $req=$bdd->query('SELECT afficher,id,commentaire,DATE_FORMAT(date_commentaire,\'%d/%m/%Y\') AS date_commentaire_fr FROM commentaires ORDER BY date_commentaire DESC');?>
             
             
     
@@ -39,6 +39,8 @@
                  <form action ="checkbox.php" method="post">
                 <?php 
                 $id=$donnees['id'];?>
+                     <?php if($donnees['afficher']==1){ ?>
+                     <div id="affiche">
                 <section id="commentaireside">
                 <input type="checkbox" name="coche[]" value=" <?php echo($id);?> " >
                     <?php echo $donnees['commentaire'];?> <br \>
@@ -47,6 +49,21 @@
                 Le <?php echo $donnees['date_commentaire_fr'];?> 
                 <br \>
                 </date> 
+                     </div>
+                     <?php } else { ?>
+                     <section id="commentaireside">
+                <input type="checkbox" name="coche[]" value=" <?php echo($id);?> " >
+                    <?php echo $donnees['commentaire'];?> <br \>
+                </section>
+                <date>
+                Le <?php echo $donnees['date_commentaire_fr'];?> 
+                <br \>
+                </date> 
+                     
+                     
+                     
+                     
+                     <?php } ?>
             <?php } ?>
             
                 <section id="boutonenvoi">

@@ -8,7 +8,7 @@ html { /* TEMP REMOVE */
 }
 
 body { /* TEMP REMOVE */
-    /*background-color: darkorange;*/
+
 
 }
 
@@ -212,10 +212,12 @@ footer {
     margin-bottom: 5%;
     padding-top: 1.5%;
     padding-right: 1.5%;
+    padding-left: 1.5%;
     z-index: 3;
     text-align: right;
     font-size:calc(0.5em + 0.5vw);
-    background-color: grey;
+    background-color: rgba(0,0,0,0.1);
+
 }
 
 #accadmin{
@@ -293,4 +295,10 @@ footer {
 
 #boutonform{
     text-align: center;
+}
+
+#affiche {
+    background-color: rgba(0 ,0 ,0 ,0.2);
+    margin-bottom: 3%;
+
 }

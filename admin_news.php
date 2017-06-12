@@ -34,12 +34,14 @@
                 die('Erreur : '.$e->getMessage());
             }
 
-            $req=$bdd->query('SELECT texte ,DATE_FORMAT(date,\'%d/%m/%Y\') AS date FROM news ORDER BY date DESC');?>
+            $req=$bdd->query('SELECT id,texte ,DATE_FORMAT(date,\'%d/%m/%Y\') AS date FROM news ORDER BY date DESC');?>
             
             
     
             <?php while($donnees = $req->fetch()) 
             { ?>
+        <?php 
+                $id=$donnees['id'];?>
                 <section id="commentaireside">
                     <?php echo $donnees['texte'];?> <br \>
                 </section>
@@ -47,7 +49,11 @@
                 Le <?php echo $donnees['date'];?> 
                 <br \>
                 </date> 
-                
+                <form action="suppr_news.php" method="post">
+
+                <input type="submit" name = " <?php echo($id);?> " value="Supprimer" class="btn btn_danger"> 
+
+            </form>
             <?php } ?>
                   <!-- Trigger the modal with a button -->
             <div id="boutonform">
