@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>  
-<SCRIPT language="javascript">
-            window.location.reload;
-</SCRIPT>
 <head>
         <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <title>Maçonnerie - Ducrozet-Moninot</title>
+
+        <title>Accueil - Ducrozet-Moninot</title>
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="globalstyle.css">
+        <link rel="stylesheet" href="style_global.css">
         <link rel="stylesheet" href="style.css">
+        <!-- Javascript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Scripts Javascript -->
+        <SCRIPT language="javascript">
+            window.location.reload;
+        </SCRIPT>
 
     </head>
     

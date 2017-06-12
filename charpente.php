@@ -8,7 +8,7 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="globalstyle.css">
+        <link rel="stylesheet" href="style_global.css">
         <link rel="stylesheet" href="style.css">
         <!-- Javascript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -39,7 +39,7 @@
                         <br />
                     </p>
                     <div>
-                       <!-- <h3>Travaux de Charpente - Couverture :</h3> -->
+                        <!-- <h3>Travaux de Charpente - Couverture :</h3> -->
                         <ul>
                             <li>Réfection complète de charpente et couverture.</li>
                             <li>Rénovation d'ancienne toiture.</li>
@@ -52,17 +52,17 @@
                             <li>Création de auvent ou préau en charpente traditionnelle. </li>
                         </ul>
                     </div>
-                        
+
                     <p class="conclusion">                        
                         Nous vous accompagnerons tout au long de vos projets et nous vous livrerons des réalisations de qualité à la hauteur de vos attentes !
                     </p>
-                    
+
                 </div>
 
                 <!-- Carousel (Images qui défilent) -->
                 <div class="Carousel_container">
                     <div id="Carousel_Charpente" class="carousel slide" data-ride="carousel">
-                        
+
                         <!-- Boutons de Navigation -->
                         <ol class="carousel-indicators">
                             <li data-target="#Carousel_Charpente" data-slide-to="0" class="active"></li>
@@ -73,7 +73,7 @@
 
                         <!-- Div qui contient/recadre les Slides -->
                         <div class="carousel-inner">
-                            
+
                             <!-- Slide #1 (Actif) -->
                             <div class="item active item-1">
                                 <!-- Image de la Slide -->
@@ -82,7 +82,7 @@
                                     <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
                                 </div>
                             </div>                            
-                            
+
                             <!-- Slide #2 -->
                             <div class="item item-2">
                                 <!-- Image de la Slide -->
@@ -91,7 +91,7 @@
                                     <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
                                 </div>
                             </div>
-                            
+
                             <!-- Slide #3 -->
                             <div class="item item-3">
                                 <!-- Image de la Slide -->

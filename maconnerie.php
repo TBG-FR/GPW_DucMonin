@@ -8,7 +8,7 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="globalstyle.css">
+        <link rel="stylesheet" href="style_global.css">
         <link rel="stylesheet" href="style.css">
         <!-- Javascript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -59,7 +59,7 @@
                 <!-- Carousel (Images qui défilent) -->
                 <div class="Carousel_container">
                     <div id="Carousel_Maconnerie" class="carousel slide" data-ride="carousel">
-                        
+
                         <!-- Boutons de Navigation -->
                         <ol class="carousel-indicators">
                             <li data-target="#Carousel_Maconnerie" data-slide-to="0" class="active"></li>
@@ -70,7 +70,7 @@
 
                         <!-- Div qui contient/recadre les Slides -->
                         <div class="carousel-inner">
-                            
+
                             <!-- Slide #1 (Actif) -->
                             <div class="item active item-1">
                                 <!-- Image de la Slide -->
@@ -80,7 +80,7 @@
                                     <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
                                 </div>
                             </div>                            
-                            
+
                             <!-- Slide #2 -->
                             <div class="item item-2">
                                 <!-- Image de la Slide -->
@@ -90,7 +90,7 @@
                                     <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
                                 </div>
                             </div>
-                            
+
                             <!-- Slide #3 -->
                             <div class="item item-3">
                                 <!-- Image de la Slide -->

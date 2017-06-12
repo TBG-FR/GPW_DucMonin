@@ -8,7 +8,7 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="globalstyle.css">
+        <link rel="stylesheet" href="style_global.css">
         <link rel="stylesheet" href="style.css">
         <!-- Javascript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -39,7 +39,7 @@
                         <br />
                     </p>
                     <div>
-                       <!-- <h3>Travaux sur Maisons Individuelles :</h3> -->
+                        <!-- <h3>Travaux sur Maisons Individuelles :</h3> -->
                         <ul>
                             <li>Réalisation dans les règles de l’art respectant les normes actuelles.</li>
                             <li>Réalisation continue de la maçonnerie à la toiture.</li>
@@ -48,17 +48,17 @@
                             <li>Conseil dans le choix des différents matériaux constituant votre maison</li>
                         </ul>
                     </div>
-                        
+
                     <p class="conclusion">                        
                         Confier la réalisation de votre maison à notre entreprise, c'est vous assurer des artisans à l'écoute et une prestation de qualité !
                     </p>
-                    
+
                 </div>
 
                 <!-- Carousel (Images qui défilent) -->
                 <div class="Carousel_container">
                     <div id="Carousel_Maisons" class="carousel slide" data-ride="carousel">
-                        
+
                         <!-- Boutons de Navigation -->
                         <ol class="carousel-indicators">
                             <li data-target="#Carousel_Maisons" data-slide-to="0" class="active"></li>
@@ -69,7 +69,7 @@
 
                         <!-- Div qui contient/recadre les Slides -->
                         <div class="carousel-inner">
-                            
+
                             <!-- Slide #1 (Actif) -->
                             <div class="item active item-1">
                                 <!-- Image de la Slide -->
@@ -78,7 +78,7 @@
                                     <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
                                 </div>
                             </div>                            
-                            
+
                             <!-- Slide #2 -->
                             <div class="item item-2">
                                 <!-- Image de la Slide -->
@@ -87,7 +87,7 @@
                                     <a class="btn btn-default" href="galerie.php" role="TODO">► Tout voir ◄</a>
                                 </div>
                             </div>
-                            
+
                             <!-- Slide #3 -->
                             <div class="item item-3">
                                 <!-- Image de la Slide -->

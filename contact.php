@@ -3,13 +3,16 @@
     <head>
         <meta charset="utf-8">
 
-        <title>Travaux de Charpente et Couverture - Ducrozet-Moninot</title>
+        <title>Contact - Ducrozet-Moninot</title>
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="globalstyle.css">
+        <link rel="stylesheet" href="style_global.css">
         <link rel="stylesheet" href="style.css">
+        <!-- Javascript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 
     </head>
 
@@ -83,7 +86,7 @@
 
                         </form>
                     </div>
-                    
+
                 </div>                
 
             </section>

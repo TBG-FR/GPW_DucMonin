@@ -1,10 +1,7 @@
-<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
 
-
+<!-- Scripts Javascript -->
 <SCRIPT language="javascript">
     function popup(page,nom,option) {
         window.open(page,nom,option);
@@ -58,7 +55,7 @@
 
     <div id="avis_show">
         <p>
-            <?php 
+            <?php
             try {
                 $bdd=new PDO ('mysql:host=localhost;dbname=bdd','root','');
             }
@@ -74,11 +71,11 @@
             ?>
             <div id="separation">
             <div id="commentaireside">
-                <?php echo $donnees['commentaire'];?> <br \>
+                <?php echo $donnees['commentaire']; ?> <br \>
             </div>
             <div id="dateside">
                 Le
-                <?php echo $donnees['date_commentaire_fr'];?> <br \>
+                <?php echo $donnees['date_commentaire_fr']; ?> <br \>
             </div>
                 
                 </div>
@@ -92,12 +89,12 @@
     </div>
 
     <div class="sidebar_btn">
-        <a class="btn btn-default" href="contact.html#devis" role="link-button">Demander un Devis</a>
+        <a class="btn btn-default" href="contact.html#devis" role="link-button">Devis Gratuit</a>
     </div>
 
     <div id="avis_show">
         <p>
-            <?php 
+            <?php
             try {
                 $bdd=new PDO ('mysql:host=localhost;dbname=bdd','root','');
             }
@@ -113,11 +110,11 @@
             ?>
             <div id="separation">
             <div id="commentaireside">
-                <?php echo $donnees['texte'];?> <br \>
+                <?php echo $donnees['texte']; ?> <br \>
             </div>
             <div id="dateside">
                 Le
-                <?php echo $donnees['date'];?> <br \>
+                <?php echo $donnees['date']; ?> <br \>
             </div>
                 
                 </div>
