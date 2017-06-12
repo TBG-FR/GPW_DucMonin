@@ -82,7 +82,7 @@
                             <label for="subject">Texte</label>
                             <textarea id="text" name="text" placeholder="Décrivez votre demande..." style="height:200px"></textarea>
 
-                            <input type="submit" value="Submit">
+                            <input type="submit" value="Envoyer">
 
                         </form>
                     </div>

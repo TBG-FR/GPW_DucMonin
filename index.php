@@ -25,7 +25,7 @@
 
         </header>
 
-        <div id="main">
+        <div id="main main_home">
             <div id="accueil">
                 <div class=container-fluid>
                     <div class="HOME">

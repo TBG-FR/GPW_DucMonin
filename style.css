@@ -5,9 +5,7 @@
 #content {
     width: 72.5%;
     margin-left: 2.5%;
-    /*margin-right: 2.5%;*/
     margin-top: 2.5%;
-    margin-bottom: 2.5%;
     background-color: rgba(122 ,181 ,160 ,0.9); /* TEMP REMOVE */
     float: left;
 }
@@ -30,7 +28,7 @@
     /*background-image:blue;*/
 }
 
-#main {
+#main_home {
     display: block;
     /*padding-left: 3%;*/
     background-color: #FFF;
@@ -46,10 +44,10 @@ map {position:relative;display:block;height:100%;width:100%;top:20vw;left:0;line
 area {display:inline-block;width:10%;position:relative;z-index:1;line-height:15%;background:rgba(0,0,0,0.5);color:white;border-radius:0;font-size:calc(1em + 1vw);}
 area:after {content:attr(title);}
 area[title]:hover {z-index:2;background:rgba(0,0,0,0.25);box-shadow:0 0 10px 1px white, 0 0 0 0 rgba(100,50,0,0.5);}
-area[title="Maçonnerie"] {position:absolute;left:2%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
-area[title="Charpente"] {position:absolute;left:26.5%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
-area[title="Façade"] {position:absolute;left:51%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
-area[title="Maison"] {position:absolute;left:75.5%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
+area[title="Maçonnerie"] {position:absolute;left:2%;top:5%;width:23%;height:100px;line-height:100px;text-align:center;}
+area[title="Charpente"] {position:absolute;left:27%;top:5%;width:23%;height:100px;line-height:100px;text-align:center;}
+area[title="Façade"] {position:absolute;left:52%;top:5%;width:23%;height:100px;line-height:100px;text-align:center;}
+area[title="Maison"] {position:absolute;left:77%;top:5%;width:23%;height:100px;line-height:100px;text-align:center;}
 
 /* ----- -----  Main - Content - Galerie ----- ----- */
 
@@ -67,7 +65,7 @@ area[title="Maison"] {position:absolute;left:75.5%;top:5%;width:22.5%;height:100
 .gallery {
     min-width: 75px;
     min-height: 50px;
-    margin: 1.44%;
+    margin: 4.5%;
     /*border: 1px solid #ccc;*/
     float: left;
 }
@@ -148,7 +146,6 @@ area[title="Maison"] {position:absolute;left:75.5%;top:5%;width:22.5%;height:100
 .Carousel_container {
     max-width: 1024px; /* Ici, mettre la largeur des images (prendre des images de même largeur) pour éviter des problèmes lors du redimensionnement */
     margin: auto;
-    margin-bottom: 2.5%;
 }
 
 .carousel-caption a {
@@ -289,6 +286,11 @@ input[type=submit]:hover {
     padding-top: 1%;
     padding-bottom: 1%;
     background-color: rgba(122,181,160,0.9);
+    
+}
+
+#sidebar #commentaireside {
+    font-size:calc(1em + 0.5vw);
 }
 
 #sidebar .btn {
@@ -309,7 +311,7 @@ input[type=submit]:hover {
 
     
     .HOME map {
-        /*top:25vw;*/
+        top:15vw;
     }
     
     #sidebar {

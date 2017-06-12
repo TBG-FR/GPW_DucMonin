@@ -8,8 +8,6 @@ html { /* TEMP REMOVE */
 }
 
 body { /* TEMP REMOVE */
-
-
 }
 
 /* ----- Polices Ajoutées & Mise en Forme ----- */
@@ -168,10 +166,9 @@ header {
 #main {
     width: 95%;
     display: inline-block;
+    padding-bottom: 2.5%;
     margin-left: 2.5%;
     margin-right: 2.5%;
-    margin-bottom: 2.5%;
-    /*margin-top: 2.5%;*/
     background-color: rgba(122 ,181 ,160 ,0.3);  /*TEMP REMOVE */
     font-family: 'ChampagneBold','Trebuchet MS', Arial, sans-serif; /* Polices, dans l'ordre */
 }

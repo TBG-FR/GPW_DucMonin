@@ -28,7 +28,7 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Laisser un avis</h4>
+                    <h4 class="modal-title">Laisser un Avis</h4>
                   </div>
                   <div class="modal-body">
                       
@@ -54,7 +54,7 @@
             </div>
 
     <div id="avis_show">
-        <p>
+        <!--<p>-->  
             <?php
             try {
                 $bdd=new PDO ('mysql:host=localhost;dbname=bdd','root','');
@@ -85,7 +85,7 @@
             }
             $req->closeCursor();
             ?>
-        </p>
+        <!--</p>-->  
     </div>
 
     <div class="sidebar_btn">
@@ -93,7 +93,7 @@
     </div>
 
     <div id="avis_show">
-        <p>
+        <!--<p>-->
             <?php
             try {
                 $bdd=new PDO ('mysql:host=localhost;dbname=bdd','root','');
@@ -124,11 +124,11 @@
             }
             $req->closeCursor();
             ?>
-        </p>            
+        <!--</p>-->          
     </div>
 
     <div class="sidebar_btn">
-        <a class="btn btn-default" href="contact.html" role="link-button">Nous Contacter</a>
+        <a class="btn btn-default" href="contact.html" role="link-button">Contact</a>
     </div>
 </aside>
 
