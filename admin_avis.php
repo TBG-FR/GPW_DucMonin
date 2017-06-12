@@ -4,13 +4,16 @@
 <head>
         <meta charset="utf-8">
 
-        <title>Maçonnerie - Ducrozet-Moninot</title>
+        <title>Gestion des Avis - Ducrozet-Moninot</title>
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="globalstyle.css">
+        <link rel="stylesheet" href="style_global.css">
         <link rel="stylesheet" href="style.css">
+        <!-- Javascript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 
     </head>
     
@@ -27,7 +30,7 @@
                 die('Erreur : '.$e->getMessage());
             }
 
-            $req=$bdd->query('SELECT id,commentaire,DATE_FORMAT(date_commentaire,\'%d/%m/%Y\') AS date_commentaire_fr FROM commentaires ORDER BY date_commentaire DESC');?>
+            $req=$bdd->query('SELECT afficher,id,commentaire,DATE_FORMAT(date_commentaire,\'%d/%m/%Y\') AS date_commentaire_fr FROM commentaires ORDER BY date_commentaire DESC');?>
             
             
     
@@ -36,6 +39,8 @@
                  <form action ="checkbox.php" method="post">
                 <?php 
                 $id=$donnees['id'];?>
+                     <?php if($donnees['afficher']==1){ ?>
+                     <div id="affiche">
                 <section id="commentaireside">
                 <input type="checkbox" name="coche[]" value=" <?php echo($id);?> " >
                     <?php echo $donnees['commentaire'];?> <br \>
@@ -44,6 +49,21 @@
                 Le <?php echo $donnees['date_commentaire_fr'];?> 
                 <br \>
                 </date> 
+                     </div>
+                     <?php } else { ?>
+                     <section id="commentaireside">
+                <input type="checkbox" name="coche[]" value=" <?php echo($id);?> " >
+                    <?php echo $donnees['commentaire'];?> <br \>
+                </section>
+                <date>
+                Le <?php echo $donnees['date_commentaire_fr'];?> 
+                <br \>
+                </date> 
+                     
+                     
+                     
+                     
+                     <?php } ?>
             <?php } ?>
             
                 <section id="boutonenvoi">
