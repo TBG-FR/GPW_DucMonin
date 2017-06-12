@@ -71,11 +71,11 @@
             ?>
             <div id="separation">
             <div id="commentaireside">
-                <?php echo $donnees['commentaire']; ?> <br \>
+                <?php echo $donnees['commentaire']; ?> <br />
             </div>
             <div id="dateside">
                 Le
-                <?php echo $donnees['date_commentaire_fr']; ?> <br \>
+                <?php echo $donnees['date_commentaire_fr']; ?> <br />
             </div>
                 
                 </div>
