@@ -5,4 +5,4 @@
     <br/>Réalisation : Dyvia F. / Simon H. / Florent P. / Tom-Brian G.
 </p>
 
-<!-- ------ "Navbar" : Fin du Bloc ------ -->
+<!-- ------ "Footer" : Fin du Bloc ------ -->

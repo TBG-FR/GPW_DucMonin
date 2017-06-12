@@ -9,6 +9,7 @@ html { /* TEMP REMOVE */
 body { /* TEMP REMOVE */
  
 
+
 }
 
 /* ----- Polices Ajoutées & Mise en Forme ----- */
@@ -201,6 +202,7 @@ footer {
     text-align: right;
     font-size:calc(0.5em + 0.5vw);
     background-color: rgba(0,0,0,0.1);
+
 }
 
 #accadmin{
@@ -283,4 +285,5 @@ footer {
 #affiche {
     background-color: rgba(0 ,0 ,0 ,0.2);
     margin-bottom: 3%;
+
 }

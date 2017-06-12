@@ -1,9 +1,3 @@
-<!-- Bootstrap -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<!-- Custom CSS -->
-<link rel="stylesheet" href="style.css">
-
-
 <form action="envoyer.php" method="post" class="col-lg-6">
 
     <div class="form-group">

@@ -1,3 +1,4 @@
+<!-- ------ "Navbar" : Menu de Navigation ------ -->
 <div class="collapse menu" id="menu">
     <ul class="list-inline">
         <li><a href="index.php">Accueil</a></li>
@@ -9,3 +10,4 @@
         <li><a href="contact.php">Contact</a></li>
     </ul>
 </div>
+<!-- ------ "Navbar" : Fin du Bloc ------ -->

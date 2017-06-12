@@ -2,7 +2,7 @@
 
 <div id="header_head">
     <div class="lamd3">
-        <img src="logo.png" alt="Logo de Ducrozet-Moninot" id="logo">
+        <img src="images/logo.png" id="logo" alt="Logo de Ducrozet-Moninot" title="TODO">
     </div>
 
     <div class="lamd5">

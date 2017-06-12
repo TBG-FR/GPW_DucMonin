@@ -1,19 +1,9 @@
-/* ----- ----- ----- ----- RAPPELS & TIPS ----- ----- ----- ----- */
-/*
+/* ----- ----- ----- ----- [ CSS "Spécifique" : Éléments qui peuvent changer/évoluer, Pages, Menu "optionnels", etc. ] ----- ----- ----- ----- */
 
-Tailles :
-1em = Taille de la police
-1vw =1/100 de la largeur de la fenêtre)
--> Utiliser 'calc(2em + 5vw)' (par exemple) pour combiner et obtenir une taille minimum + 'responsive' !
-
-*/
-
-/* ----- ----- ----- ----- [CSS "Spécifique" : Éléments qui peuvent changer/évoluer] ----- ----- ----- ----- */
-
-/* ----- -----  Main - Content (Contenu spécifique de la page) ----- ----- */
+/* ----- -----  Main - Content - Global ----- ----- */
 
 #content {
-    width: 70%;
+    width: 72.5%;
     margin-left: 2.5%;
     /*margin-right: 2.5%;*/
     margin-top: 2.5%;
@@ -22,7 +12,7 @@ Tailles :
     float: left;
 }
 
-/* ----- -----  Main - Accueil ----- ----- */
+/* ----- -----  Main - Content - Accueil ----- ----- */
 
 #accueil {
     margin-left: 2.5%;
@@ -32,7 +22,7 @@ Tailles :
     background-color: rgba(122 ,181 ,160 ,0.9); /* TEMP REMOVE */
 }
 
-.TEMP img{
+.HOME img{
     display: block;
     padding-left:2%;
     max-width:100%;
@@ -40,15 +30,13 @@ Tailles :
     /*background-image:blue;*/
 }
 
-TEMP > area{
+HOME > area{
     transform-origin:center 0;
 }
 
-/*body {display:table-cell;/*vertical-align:none;}*/
 #accueil {display:table-cell; vertical-align:center;}
 map {position:relative;display:block;height:100%;width:100%;top:0;left:0;line-height:100%;}
-area {display:inline-block;width:10%;position:relative;z-index:1;line-height:1em;
-    background:rgba(0,0,0,0.25);color:white;line-height:40px;border-radius:3em;}
+area {display:inline-block;width:10%;position:relative;z-index:1;line-height:1em;background:rgba(0,0,0,0.25);color:white;line-height:40px;border-radius:3em;}
 area:after {content:attr(title);}
 area[title]:hover {z-index:2;background:rgba(0,0,0,0);box-shadow:0 0 10px 1px white, 0 0 0 0 rgba(100,50,0,0.5);}
 area[title="Maçonnerie"] {position:absolute;left:2%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
@@ -56,27 +44,7 @@ area[title="Charpente"] {position:absolute;left:26.5%;top:5%;width:22.5%;height:
 area[title="Façade"] {position:absolute;left:51%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
 area[title="Maison"] {position:absolute;left:75.5%;top:5%;width:22.5%;height:100px;line-height:100px;text-align:center;}
 
-/* ----- -----  Main - Content [Page Gallerie] ----- ----- */
-
-/*
-.gallery {
-min-width: 150px;
-margin: 1%;
-//border: 1px solid #ccc;
-float: left;
-width: 22%;
-height: 16%;
-background-color: red;
-}
-
-div.gallery:hover {
-FILTRE GRIS + Message "Afficher"
-}
-
-.gallery img {
-width: 100%;
-}
-*/
+/* ----- -----  Main - Content - Galerie ----- ----- */
 
 #gallery_buttons {
     text-align: center;
@@ -95,13 +63,7 @@ width: 100%;
     margin: 1.44%;
     /*border: 1px solid #ccc;*/
     float: left;
-   
-    
 }
-
-/*div.gallery:hover {
-    FILTRE GRIS + Message "Afficher"
-}*/
 
 .gallery img {
     width: 220px;
@@ -109,31 +71,26 @@ width: 100%;
     page-break-inside: avoid;
 }
 
-/* ----- -----  Main - Content [Pages Type] ----- ----- */
+/* ----- -----  Main - Content - Page Type ----- ----- */
 
 #content h1 {
-
     margin-left: 2.5%;
+    margin-right: 0%;
     margin-bottom: 2.5%;
     font-size:calc(2em + 1.5vw);
-
 }
 
 .description {
-
     margin-left: 2.5%;
-    margin-right: 2.5%;
-    font-size:calc(1em + 0.5vw); 
-
+    margin-right: 0%;
+    font-size:calc(1em + 0.5vw);
 }
 
 .desc_list {
-
     margin-top: 5%;
 }
 
 .description li {
-
     margin-top: 1%;
 }
 
@@ -165,7 +122,7 @@ width: 100%;
     max-width: 50%;
 }
 
-/* ----- Carousel----- */
+/* ----- Carousel ----- */
 
 .Carousel_container {
     background-color: chartreuse; /* TEMP REMOVE */
@@ -179,26 +136,13 @@ width: 100%;
     margin: auto;
     background-repeat: no-repeat;
     background-position: center center;
-    /*font-size:calc(1em + 0.5vw);*/   /* USELESS ? */
 }
 
 .Carousel_container {
-    max-width: 1024px; /* Ici, mettre la largeur des images (prendre des images de même largeur ?) pour éviter des problèmes lors du redimensionnement */
+    max-width: 1024px; /* Ici, mettre la largeur des images (prendre des images de même largeur) pour éviter des problèmes lors du redimensionnement */
     margin: auto;
     margin-bottom: 2.5%;
 }
-
-/*.carousel-inner .item img {
-vertical-align: middle;
-content: "BEHUFHUIHD";
-}
-
-.carousel,
-.item,
-.active {
-height: 100%;
-margin-bottom: 60px;
-}*/
 
 .carousel-caption a {
     text-align: center;
@@ -206,76 +150,71 @@ margin-bottom: 60px;
     text-decoration: none;
     font-size:calc(1em + 0.2vw);
     font-weight: bold;
-
 }
 
 .carousel-caption .btn-default {
     margin-bottom: 2.5%;
-
 }
 
-/*.Carousel_container:after {
-text-align: center;
-margin-bottom: 2.5%;
-font-size:calc(1em + 0.5vw);
-content: "tout voir"
-}*/
-
-/* ----- Carousel : Maconnerie ----- */
+/* ----- Carousel : Maçonnerie ----- */
 #Carousel_Maconnerie .carousel-inner .item-1 { background-image: url(images/maconnerie/carousel/1.jpg); }
 #Carousel_Maconnerie .carousel-inner .item-2 { background-image: url(images/maconnerie/carousel/2.jpg); }
 #Carousel_Maconnerie .carousel-inner .item-3 { background-image: url(images/maconnerie/carousel/3.jpg); }
 #Carousel_Maconnerie .carousel-inner .item-4 { background-image: url(images/maconnerie/carousel/4.jpg); }
 
+/* ----- Carousel : Façade ----- */
 #Carousel_Facade .carousel-inner .item-1 { background-image: url(images/facade/carousel/1.jpg); }
 #Carousel_Facade .carousel-inner .item-2 { background-image: url(images/facade/carousel/2.jpg); }
 #Carousel_Facade .carousel-inner .item-3 { background-image: url(images/facade/carousel/3.jpg); }
 #Carousel_Facade .carousel-inner .item-4 { background-image: url(images/facade/carousel/4.jpg); }
 
+/* ----- Carousel : Charpente ----- */
 #Carousel_Charpente .carousel-inner .item-1 { background-image: url(images/charpente_couverture/carousel/1.jpg); }
 #Carousel_Charpente .carousel-inner .item-2 { background-image: url(images/charpente_couverture/carousel/2.jpg); }
 #Carousel_Charpente .carousel-inner .item-3 { background-image: url(images/charpente_couverture/carousel/3.jpg); }
 #Carousel_Charpente .carousel-inner .item-4 { background-image: url(images/charpente_couverture/carousel/4.jpg); }
 
+/* ----- Carousel : Maisons ----- */
 #Carousel_Maisons .carousel-inner .item-1 { background-image: url(images/maisons/carousel/1.jpg); }
 #Carousel_Maisons .carousel-inner .item-2 { background-image: url(images/maisons/carousel/2.jpg); }
 #Carousel_Maisons .carousel-inner .item-3 { background-image: url(images/maisons/carousel/3.jpg); }
 #Carousel_Maisons .carousel-inner .item-4 { background-image: url(images/maisons/carousel/4.jpg); }
 
+/* ----- -----  Main - Content - Page Contact ----- ----- */
 
-
-/* ----- -----  Main - Content [Page Contact] ----- ----- */
-
-#contact h2{
-
+#contact h1{
     text-align: center;
-
+    margin-bottom: 5%;
 }
 
 #contact {
     display: inline-block;
-    margin-top: 2.5%;
     margin-bottom: 2.5%;
 }
 
 #contact_informations {
+    margin-top: 5%;
+    text-align: center;
     float: left;
     width: 35%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    white-space: nowrap;
+    white-space: normal;
 }
 
 .c_info_element {
-    font-size:calc(1em + 0.5vw);    
+    font-size:calc(1em + 0.5vw);
+    margin-bottom: 20%;
 }
 
-.c_info_element .glyphicon-earphone {
-    font-size:calc(1em + 0.5vw);
+.c_info_element .glyphicon-earphone, .c_info_element .glyphicon-map-marker, .c_info_element .glyphicon-phone, .c_info_element .glyphicon-envelope {
+    font-size:calc(1.5em + 1vw);
 }
+
+/* ----- Formulaire ----- */
 
 #contact_formulaire {
     float: right;
@@ -284,13 +223,23 @@ content: "tout voir"
     margin-right: 2.5%;
 }
 
-/* ----- Formulaire ----- */
-
 /* Add a background color and some padding around the form */
 #contact_formulaire {
+    font-size:calc(1em + 0.5vw);
     border-radius: 5px;
-    background-color: #f2f2f2;
+    /*background-color: #f2f2f2;*/
+    color: #FFF;
+    text-shadow: 2px 2px 1px #000;
+    background-color: rgba(20,20,20,0.5);
     padding: 20px;
+}
+
+#contact_formulaire #name, #contact_formulaire #enterprise, #contact_formulaire #sujet, #contact_formulaire #text {
+    margin-bottom: 5%;
+}
+
+#contact_formulaire select {
+    color: #000;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -320,7 +269,7 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-/* ----- -----  Main - Sidebar(Menu de droite) ----- ----- */
+/* ----- -----  Main - Sidebar (Menu de droite) ----- ----- */
 
 #sidebar {
     width: 20%;
@@ -328,16 +277,15 @@ input[type=submit]:hover {
     margin-right: 2.5%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
-    background-color: cyan; /* TEMP REMOVE */
     float: right;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
-    background-color: rgba(122 ,181 ,160 ,0.9);
+    background-color: rgba(122,181,160,0.9);
 }
 
 #sidebar .btn {
-    font-size:calc(0.8em + 0.5vw);
+    font-size:calc(1em + 0.5vw);
 }
 
 #returnbutton {
@@ -350,7 +298,7 @@ input[type=submit]:hover {
 
 /* ----- ----- ----- ----- CSS "@media" (Responsive) ----- ----- ----- ----- */
 
-@media all and (max-width:700px)  { /* Sur tous les medias, si la largeur d'affichage est plus petite que 600px */
+@media all and (max-width:750px)  { /* Sur tous les medias, si la largeur d'affichage est plus petite que 600px */
 
     #sidebar {
         display: none;      /* Cacher la Sidebar */
